@@ -7,6 +7,7 @@ import { File } from '@ionic-native/file';
 import { Transfer } from '@ionic-native/transfer';
 import { FilePath } from '@ionic-native/file-path';
 import { Keyboard } from '@ionic-native/keyboard';
+import { CalendarModule } from "ion2-calendar";
 
 import { SentryErrorHandler } from '../services/sentry-errorhandler'
 import { CodePush } from '@ionic-native/code-push';
@@ -129,9 +130,11 @@ import { ScheduleApi } from '../providers/schedule-api';
     HttpModule,
     RouterModule,
     MomentModule,
+    CalendarModule,
     Ionic2RatingModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot()
+    
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -1,13 +1,13 @@
 webpackJsonp([1],{
 
-/***/ 140:
+/***/ 144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__users_user_form__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__users_user_form__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_api__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -82,14 +82,14 @@ var UserDetails = /** @class */ (function () {
     };
     UserDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-user-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-details.html"*/'<!--\n  Generated template for the UserDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>User Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <div>\n\n    <button ion-item (click)="editUser(user)">\n      {{user.title}} {{user.first_name}} {{user.last_name}}\n      <p>\n        Phone: {{user.phone}}\n      </p>\n      <p>\n        Email: {{user.email}}\n      </p>\n       <p> \n        Role: {{user.role}}\n      </p>\n      <p> \n        Birth Year: {{user.birth_year}}\n      </p>\n\n      <div *ngIf="user.role == \'Coach\'">\n      \n      </div>\n\n    </button>\n\n    <ion-row>\n\n      <ion-col>\n        <button ion-button full color="secondary" (click)="editUser(user)">Edit User Details</button>\n      </ion-col>\n\n    </ion-row>\n\n  </div>\n  <ion-card>\n\n\n    <ion-card-content *ngIf="user.role == \'Care Giver\' || user.role == \'Nurse\'">\n\n      <ion-list>\n\n\n      </ion-list>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-details.html"*/,
+            selector: 'page-user-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/user-details.html"*/'<!--\n  Generated template for the UserDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>User Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <div>\n\n    <button ion-item (click)="editUser(user)">\n      {{user.title}} {{user.first_name}} {{user.last_name}}\n      <p>\n        Phone: {{user.phone}}\n      </p>\n      <p>\n        Email: {{user.email}}\n      </p>\n       <p> \n        Role: {{user.role}}\n      </p>\n      <p> \n        Birth Year: {{user.birth_year}}\n      </p>\n\n      <div *ngIf="user.role == \'Coach\'">\n      \n      </div>\n\n    </button>\n\n    <ion-row>\n\n      <ion-col>\n        <button ion-button full color="secondary" (click)="editUser(user)">Edit User Details</button>\n      </ion-col>\n\n    </ion-row>\n\n  </div>\n  <ion-card>\n\n\n    <ion-card-content *ngIf="user.role == \'Care Giver\' || user.role == \'Nurse\'">\n\n      <ion-list>\n\n\n      </ion-list>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/user-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_3__providers_user_api__["a" /* UserApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */]])
     ], UserDetails);
     return UserDetails;
@@ -99,7 +99,7 @@ var UserDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 141:
+/***/ 145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -187,7 +187,7 @@ var FitnessTestApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 142:
+/***/ 146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -270,7 +270,7 @@ var WorkoutApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 143:
+/***/ 147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -278,8 +278,8 @@ var WorkoutApi = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__food_log_form__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__food_log_form__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_moment__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -342,10 +342,10 @@ var FoodLogs = /** @class */ (function () {
     };
     FoodLogs = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'food-logs',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-logs.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Food Log: {{current_date | date: "EEE dd MMM yy"}}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let food_log of food_logs" (click)=getFoodLogDetails(food_log)>\n\n      <ion-item-divider text-wrap color="secondary">{{food_log.meal}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{food_log.intake_date | date: "dd/MM/yy HH:mm"}}\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col text-wrap>\n            {{food_log.details}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n\n  </ion-list>\n\n  <ion-fab bottom right>\n    <button ion-fab (click)="newFoodLog()">+</button>\n  </ion-fab>\n\n  <ion-row bottom>\n    <ion-col>\n      <button ion-button full color="secondary" (click)="getFoodLogs(-1)">< Prev Day</button>\n    </ion-col>\n    <ion-col>\n      <button ion-button full color="primary" (click)="getFoodLogs(1)">Next Day></button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-logs.html"*/,
+            selector: 'food-logs',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/food-logs/food-logs.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Food Log: {{current_date | date: "EEE dd MMM yy"}}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let food_log of food_logs" (click)=getFoodLogDetails(food_log)>\n\n      <ion-item-divider text-wrap color="secondary">{{food_log.meal}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{food_log.intake_date | date: "dd/MM/yy HH:mm"}}\n          </ion-col>\n        </ion-row>\n        <ion-row>\n          <ion-col text-wrap>\n            {{food_log.details}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n\n  </ion-list>\n\n  <ion-fab bottom right>\n    <button ion-fab (click)="newFoodLog()">+</button>\n  </ion-fab>\n\n  <ion-row bottom>\n    <ion-col>\n      <button ion-button full color="secondary" (click)="getFoodLogs(-1)">< Prev Day</button>\n    </ion-col>\n    <ion-col>\n      <button ion-button full color="primary" (click)="getFoodLogs(1)">Next Day></button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/food-logs/food-logs.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__["a" /* FoodLogApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
     ], FoodLogs);
@@ -356,16 +356,16 @@ var FoodLogs = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 144:
+/***/ 148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScheduleForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -400,7 +400,7 @@ var ScheduleForm = /** @class */ (function () {
         this.schedule = this.navParams.data;
         console.log(this.schedule);
         this.slideOneForm = formBuilder.group({
-            rating: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            rating: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
             comments: [],
         });
     }
@@ -457,14 +457,14 @@ var ScheduleForm = /** @class */ (function () {
     };
     ScheduleForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'schedule-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>How did it feel?</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item-divider text-wrap text-center color="secondary" *ngIf="schedule.rating == 1">\n        Great! Good going & keep it up.\n      </ion-item-divider>\n      <ion-item-divider text-wrap text-center color="light" *ngIf="schedule.rating == 0">\n        Ok. Sure you\'ll do better next time.\n      </ion-item-divider>\n      <ion-item-divider text-wrap text-center color="danger" *ngIf="schedule.rating == -1">\n        Oh too bad. Tell us what happened ?\n      </ion-item-divider>\n\n      <ion-item class="center">\n        <ion-row>\n          <ion-col>\n            <img src="assets/smiley.png" (click)="setRating(1)" [style.backgroundColor]="schedule.rating == 1 ? \'green\' : \'white\'"/>\n          </ion-col>\n          <ion-col>\n            <img src="assets/neutral.png" (click)="setRating(0)" [style.backgroundColor]="schedule.rating == 0 ? \'yellow\' : \'white\'"/>\n          </ion-col>\n          <ion-col>\n            <img src="assets/sad.png" (click)="setRating(-1)" [style.backgroundColor]="schedule.rating == -1 ? \'red\' : \'white\'"/>\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <div *ngIf="schedule.rating == -1">\n      <ion-item >\n        <ion-label text-wrap floating>Comments</ion-label>\n        <ion-textarea name="comments" formControlName="comments" type="text" [(ngModel)]="schedule.comments" [class.invalid]="!slideOneForm.controls.comments.valid && (slideOneForm.controls.comments.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.comments.valid  && (slideOneForm.controls.comments.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n      </div>\n\n    </form>\n\n  </ion-list>\n\n  <schedule-details></schedule-details>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-form.html"*/,
+            selector: 'schedule-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>How did it feel?</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item-divider text-wrap text-center color="secondary" *ngIf="schedule.rating == 1">\n        Great! Good going & keep it up.\n      </ion-item-divider>\n      <ion-item-divider text-wrap text-center color="light" *ngIf="schedule.rating == 0">\n        Ok. Sure you\'ll do better next time.\n      </ion-item-divider>\n      <ion-item-divider text-wrap text-center color="danger" *ngIf="schedule.rating == -1">\n        Oh too bad. Tell us what happened ?\n      </ion-item-divider>\n\n      <ion-item class="center">\n        <ion-row>\n          <ion-col>\n            <img src="assets/smiley.png" (click)="setRating(1)" [style.backgroundColor]="schedule.rating == 1 ? \'green\' : \'white\'"/>\n          </ion-col>\n          <ion-col>\n            <img src="assets/neutral.png" (click)="setRating(0)" [style.backgroundColor]="schedule.rating == 0 ? \'yellow\' : \'white\'"/>\n          </ion-col>\n          <ion-col>\n            <img src="assets/sad.png" (click)="setRating(-1)" [style.backgroundColor]="schedule.rating == -1 ? \'red\' : \'white\'"/>\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <div *ngIf="schedule.rating == -1">\n      <ion-item >\n        <ion-label text-wrap floating>Comments</ion-label>\n        <ion-textarea name="comments" formControlName="comments" type="text" [(ngModel)]="schedule.comments" [class.invalid]="!slideOneForm.controls.comments.valid && (slideOneForm.controls.comments.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.comments.valid  && (slideOneForm.controls.comments.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n      </div>\n\n    </form>\n\n  </ion-list>\n\n  <schedule-details></schedule-details>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__["a" /* ScheduleApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -477,19 +477,19 @@ var ScheduleForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 145:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedicalForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__static_terms__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__static_terms__ = __webpack_require__(76);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -524,7 +524,7 @@ var MedicalForm = /** @class */ (function () {
         console.log("this.navParams.data", this.navParams.data);
         console.log(this.medical);
         this.slideOneForm = formBuilder.group({
-            last_medical_checkup: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(8), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            last_medical_checkup: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(8), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
             specific_issue: [''],
             q1: [''],
             q2: [''],
@@ -621,14 +621,14 @@ var MedicalForm = /** @class */ (function () {
     };
     MedicalForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'medical-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medical-form.html"*/'<!--\n  Generated template for the UserForm pemail.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pemails and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medical History</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n\n      <ion-list radio-group formControlName="last_medical_checkup" [(ngModel)]="medical.last_medical_checkup">\n\n        <ion-list-header text-wrap>The last time I had a medical check up was</ion-list-header>\n\n        <ion-item>\n          <ion-label text-wrap>Within the last six months.</ion-label>\n          <ion-radio value="Within the last six months."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Between six and eighteen months ago.</ion-label>\n          <ion-radio value="Between six and eighteen months ago."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>More than eighteen months ago / never.</ion-label>\n          <ion-radio value="More than eighteen months ago / never."></ion-radio>\n        </ion-item>\n\n      </ion-list>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.last_medical_checkup.valid  && (slideOneForm.controls.last_medical_checkup.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-list-header text-wrap>Medical Checklist</ion-list-header>\n\n      <ion-item>\n        <ion-label text-wrap>I have been told I have a heart condition that requires me to take up only physical activity recommended by a doctor.</ion-label>\n        <ion-checkbox formControlName="q1" [(ngModel)]="medical.q1"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past felt a pain in my chest when I do physical activity / exercise.</ion-label>\n        <ion-checkbox formControlName="q2" [(ngModel)]="medical.q2"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>In the past month I have had chest pain when not doing any physical activity.</ion-label>\n        <ion-checkbox formControlName="q3" [(ngModel)]="medical.q3"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past lost balance because I felt dizzy, or lost consciousness.</ion-label>\n        <ion-checkbox formControlName="q4" [(ngModel)]="medical.q4"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have a bone or joint problem that could be made worse with physical activity.</ion-label>\n        <ion-checkbox formControlName="q5" [(ngModel)]="medical.q5"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am taking medication for blood pressure or a heart condition.</ion-label>\n        <ion-checkbox formControlName="q6" [(ngModel)]="medical.q6"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am diabetic.</ion-label>\n        <ion-checkbox formControlName="q7" [(ngModel)]="medical.q7"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I sometimes have difficulty breathing - especially in cold dry conditions.</ion-label>\n        <ion-checkbox formControlName="q8" [(ngModel)]="medical.q8"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am aware of some other last_medical_checkup why I should do physical activity.</ion-label>\n        <ion-checkbox formControlName="q9" [(ngModel)]="medical.q9"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am pregnant.</ion-label>\n        <ion-checkbox formControlName="q10" [(ngModel)]="medical.q10"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>None of the things listed above apply to me.</ion-label>\n        <ion-checkbox formControlName="q11" [(ngModel)]="medical.q11" (click)="uncheckAllOthers()"></ion-checkbox>\n      </ion-item>\n\n      <ion-list-header text-wrap>Any specific issue / concern that you wish to highlight for consideration as you get started with the program?</ion-list-header>\n\n      <ion-item>\n        <ion-textarea name="specific_issue" formControlName="specific_issue" type="text" [(ngModel)]="medical.specific_issue" [class.invalid]="!slideOneForm.controls.specific_issue.valid && (slideOneForm.controls.specific_issue.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.specific_issue.valid  && (slideOneForm.controls.specific_issue.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medical-form.html"*/,
+            selector: 'medical-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/medicals/medical-form.html"*/'<!--\n  Generated template for the UserForm pemail.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pemails and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medical History</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n\n      <ion-list radio-group formControlName="last_medical_checkup" [(ngModel)]="medical.last_medical_checkup">\n\n        <ion-list-header text-wrap>The last time I had a medical check up was</ion-list-header>\n\n        <ion-item>\n          <ion-label text-wrap>Within the last six months.</ion-label>\n          <ion-radio value="Within the last six months."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Between six and eighteen months ago.</ion-label>\n          <ion-radio value="Between six and eighteen months ago."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>More than eighteen months ago / never.</ion-label>\n          <ion-radio value="More than eighteen months ago / never."></ion-radio>\n        </ion-item>\n\n      </ion-list>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.last_medical_checkup.valid  && (slideOneForm.controls.last_medical_checkup.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-list-header text-wrap>Medical Checklist</ion-list-header>\n\n      <ion-item>\n        <ion-label text-wrap>I have been told I have a heart condition that requires me to take up only physical activity recommended by a doctor.</ion-label>\n        <ion-checkbox formControlName="q1" [(ngModel)]="medical.q1"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past felt a pain in my chest when I do physical activity / exercise.</ion-label>\n        <ion-checkbox formControlName="q2" [(ngModel)]="medical.q2"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>In the past month I have had chest pain when not doing any physical activity.</ion-label>\n        <ion-checkbox formControlName="q3" [(ngModel)]="medical.q3"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past lost balance because I felt dizzy, or lost consciousness.</ion-label>\n        <ion-checkbox formControlName="q4" [(ngModel)]="medical.q4"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have a bone or joint problem that could be made worse with physical activity.</ion-label>\n        <ion-checkbox formControlName="q5" [(ngModel)]="medical.q5"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am taking medication for blood pressure or a heart condition.</ion-label>\n        <ion-checkbox formControlName="q6" [(ngModel)]="medical.q6"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am diabetic.</ion-label>\n        <ion-checkbox formControlName="q7" [(ngModel)]="medical.q7"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I sometimes have difficulty breathing - especially in cold dry conditions.</ion-label>\n        <ion-checkbox formControlName="q8" [(ngModel)]="medical.q8"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am aware of some other last_medical_checkup why I should do physical activity.</ion-label>\n        <ion-checkbox formControlName="q9" [(ngModel)]="medical.q9"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am pregnant.</ion-label>\n        <ion-checkbox formControlName="q10" [(ngModel)]="medical.q10"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>None of the things listed above apply to me.</ion-label>\n        <ion-checkbox formControlName="q11" [(ngModel)]="medical.q11" (click)="uncheckAllOthers()"></ion-checkbox>\n      </ion-item>\n\n      <ion-list-header text-wrap>Any specific issue / concern that you wish to highlight for consideration as you get started with the program?</ion-list-header>\n\n      <ion-item>\n        <ion-textarea name="specific_issue" formControlName="specific_issue" type="text" [(ngModel)]="medical.specific_issue" [class.invalid]="!slideOneForm.controls.specific_issue.valid && (slideOneForm.controls.specific_issue.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.specific_issue.valid  && (slideOneForm.controls.specific_issue.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/medicals/medical-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__["a" /* MedicalApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -641,14 +641,14 @@ var MedicalForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 146:
+/***/ 150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_form__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_form__ = __webpack_require__(75);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -676,9 +676,9 @@ var RegisterPage = /** @class */ (function () {
     };
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-register',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar  color="primary">\n    <ion-title>Register</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n\n            <button ion-item (click)="register(\'Runner\', -1)">\n              <ion-icon name="create" item-left color="primary"></ion-icon>\n              Corporate Sponsored Runner\n              <p>\n                Register as a Runner .\n              </p>\n            </button>\n\n            <button ion-item (click)="register(\'Runner\', null)">\n              <ion-icon name="create" item-left color="primary"></ion-icon>\n              Individual Runner\n              <p>\n                Register as an individual Runner\n              </p>\n            </button>\n\n\n\n        </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/register.html"*/,
+            selector: 'page-register',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar  color="primary">\n    <ion-title>Register</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n\n            <button ion-item (click)="register(\'Runner\', -1)">\n              <ion-icon name="create" item-left color="primary"></ion-icon>\n              Corporate Sponsored Runner\n              <p>\n                Register as a Runner .\n              </p>\n            </button>\n\n            <button ion-item (click)="register(\'Runner\', null)">\n              <ion-icon name="create" item-left color="primary"></ion-icon>\n              Individual Runner\n              <p>\n                Register as an individual Runner\n              </p>\n            </button>\n\n\n\n        </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/register.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"]])
     ], RegisterPage);
     return RegisterPage;
 }());
@@ -687,7 +687,7 @@ var RegisterPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 156:
+/***/ 160:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -700,16 +700,16 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 156;
+webpackEmptyAsyncContext.id = 160;
 
 /***/ }),
 
-/***/ 202:
+/***/ 206:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/users/users.module": [
-		575,
+		587,
 		0
 	]
 };
@@ -724,19 +724,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 202;
+webpackAsyncContext.id = 206;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 250:
+/***/ 381:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserTabs; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_details__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_details__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_api__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -784,14 +784,14 @@ var UserTabs = /** @class */ (function () {
     };
     UserTabs = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-user-tabs',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-tabs.html"*/'<!--\n  Generated template for the UserDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Settings</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-tabs preloadTabs="false" has-header=false  \n    (click)="tabClick($event)" color="primary" tabsPlacement="bottom" [selectedIndex]="tabIndex">\n    <ion-tab tabIcon="person" [rootParams]="user" [root]="tab1Root" tabTitle="Profile" disabled="true"></ion-tab>\n  </ion-tabs>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-tabs.html"*/,
+            selector: 'page-user-tabs',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/user-tabs.html"*/'<!--\n  Generated template for the UserDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Settings</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-tabs preloadTabs="false" has-header=false  \n    (click)="tabClick($event)" color="primary" tabsPlacement="bottom" [selectedIndex]="tabIndex">\n    <ion-tab tabIcon="person" [rootParams]="user" [root]="tab1Root" tabTitle="Profile" disabled="true"></ion-tab>\n  </ion-tabs>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/user-tabs.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_3__providers_user_api__["a" /* UserApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */]])
     ], UserTabs);
     return UserTabs;
@@ -801,7 +801,7 @@ var UserTabs = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 251:
+/***/ 382:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -875,7 +875,7 @@ var CompanyApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 252:
+/***/ 383:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -883,13 +883,13 @@ var CompanyApi = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_fitness_test_api__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_highcharts__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_fitness_test_api__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_highcharts__ = __webpack_require__(524);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_highcharts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_highcharts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_jquery__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_jquery__ = __webpack_require__(525);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_stress_test_api__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_stress_test_api__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -907,7 +907,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-__webpack_require__(512)(__WEBPACK_IMPORTED_MODULE_4_highcharts__);
+__webpack_require__(526)(__WEBPACK_IMPORTED_MODULE_4_highcharts__);
 var FitnessTests = /** @class */ (function () {
     function FitnessTests(navCtrl, navParams, loadingController, fitness_test_api, stress_testApi, respUtility) {
         this.navCtrl = navCtrl;
@@ -1359,10 +1359,10 @@ var FitnessTests = /** @class */ (function () {
     };
     FitnessTests = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'fitness-tests',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/fitness-tests/fitness-tests.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Fitness Tests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding="true" class="has-header">\n  <div id="Cardio" style="height: 250px;"></div>\n  <div class="row">\n      <div id="stressTest"  style="float:left;width:50%;  height: 160px;"></div>\n      <div id="wellnessIndex"  style="float:left;width:50%;  height: 160px;"></div>\n    </div>\n  \n  <div class="trellis" >\n      <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n        <div style="float:left;width:50%;  height: 100px;"></div>\n        <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n    </div>\n</ion-content>\n\n\n<!-- \n<ion-content padding>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let fitness_test of fitness_tests" (click)=getFitnessTesdivetails(fitness_test)>\n\n      {{fitness_test.test_date | date}}\n      <p>\n        Weight: {{fitness_test.weight}}\n      </p>\n      <p>\n        Fat %: {{fitness_test.fat_percentage}}\n      </p>\n      <p>\n        Body Age: {{fitness_test.body_age}}\n      </p>\n\n        <ion-badge item-right color="secondary" *ngIf="fitness_test.current">\n          Current\n        </ion-badge>\n      \n    </button>\n\n  </ion-list>\n\n</ion-content> -->'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/fitness-tests/fitness-tests.html"*/,
+            selector: 'fitness-tests',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/fitness-tests/fitness-tests.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Fitness Tests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding="true" class="has-header">\n  <div id="Cardio" style="height: 250px;"></div>\n  <div class="row">\n      <div id="stressTest"  style="float:left;width:50%;  height: 160px;"></div>\n      <div id="wellnessIndex"  style="float:left;width:50%;  height: 160px;"></div>\n    </div>\n  \n  <div class="trellis" >\n      <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n        <div style="float:left;width:50%;  height: 100px;"></div>\n        <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n      <div style="float:left;width:50%;  height: 100px;"></div>\n    </div>\n</ion-content>\n\n\n<!-- \n<ion-content padding>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let fitness_test of fitness_tests" (click)=getFitnessTesdivetails(fitness_test)>\n\n      {{fitness_test.test_date | date}}\n      <p>\n        Weight: {{fitness_test.weight}}\n      </p>\n      <p>\n        Fat %: {{fitness_test.fat_percentage}}\n      </p>\n      <p>\n        Body Age: {{fitness_test.body_age}}\n      </p>\n\n        <ion-badge item-right color="secondary" *ngIf="fitness_test.current">\n          Current\n        </ion-badge>\n      \n    </button>\n\n  </ion-list>\n\n</ion-content> -->'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/fitness-tests/fitness-tests.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_fitness_test_api__["a" /* FitnessTestApi */],
             __WEBPACK_IMPORTED_MODULE_7__providers_stress_test_api__["a" /* StressTestApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
@@ -1374,14 +1374,14 @@ var FitnessTests = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 253:
+/***/ 384:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WorkoutDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_workout_api__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_workout_api__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1450,14 +1450,14 @@ var WorkoutDetails = /** @class */ (function () {
     };
     WorkoutDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'workout-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/workouts/workout-details.html"*/'<!--\n  Generated template for the WorkoutDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Workout Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Type:\n        </ion-col>\n        <ion-col>\n          {{workout.workout_type}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Activity Time:\n        </ion-col>\n        <ion-col>\n          {{workout.activity_time}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Activity Speed:\n        </ion-col>\n        <ion-col>\n          {{workout.activity_speed}} Kmh\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Recovery Time\n        </ion-col>\n        <ion-col>\n          {{workout.recovery_time}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Recovery Speed:\n        </ion-col>\n        <ion-col>\n          {{workout.recovery_speed}} Kmh\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Repeats:\n        </ion-col>\n        <ion-col>\n          {{workout.repeats}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Total Duration:\n        </ion-col>\n        <ion-col>\n          {{workout.total_duration}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/workouts/workout-details.html"*/,
+            selector: 'workout-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/workouts/workout-details.html"*/'<!--\n  Generated template for the WorkoutDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Workout Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Type:\n        </ion-col>\n        <ion-col>\n          {{workout.workout_type}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Activity Time:\n        </ion-col>\n        <ion-col>\n          {{workout.activity_time}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Activity Speed:\n        </ion-col>\n        <ion-col>\n          {{workout.activity_speed}} Kmh\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Recovery Time\n        </ion-col>\n        <ion-col>\n          {{workout.recovery_time}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Recovery Speed:\n        </ion-col>\n        <ion-col>\n          {{workout.recovery_speed}} Kmh\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Repeats:\n        </ion-col>\n        <ion-col>\n          {{workout.repeats}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Total Duration:\n        </ion-col>\n        <ion-col>\n          {{workout.total_duration}} mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/workouts/workout-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_workout_api__["a" /* WorkoutApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], WorkoutDetails);
     return WorkoutDetails;
@@ -1467,7 +1467,7 @@ var WorkoutDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 254:
+/***/ 385:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1550,16 +1550,16 @@ var StrengthWorkoutApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 255:
+/***/ 386:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FoodLogForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_moment__ = __webpack_require__(1);
@@ -1598,9 +1598,9 @@ var FoodLogForm = /** @class */ (function () {
         this.food_log["intake_date"] = __WEBPACK_IMPORTED_MODULE_7_moment___default()(this.food_log["intake_date"]).format();
         console.log(this.food_log);
         this.slideOneForm = formBuilder.group({
-            meal: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(15), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            intake_date: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            details: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            meal: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(15), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            intake_date: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            details: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
         });
     }
     FoodLogForm.prototype.ionViewDidLoad = function () {
@@ -1645,14 +1645,14 @@ var FoodLogForm = /** @class */ (function () {
     };
     FoodLogForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'food-log-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-log-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>FoodLogs</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item>\n        <ion-label floating>Meal</ion-label>\n        <ion-select [(ngModel)]="food_log.meal" name="meal" formControlName="meal">\n          <ion-option value="Breakfast">Breakfast</ion-option>\n          <ion-option value="Lunch">Lunch</ion-option>\n          <ion-option value="Dinner">Dinner</ion-option>\n          <ion-option value="Snack">Snack</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Date</ion-label>\n        <ion-datetime name="intake_date" formControlName="intake_date" displayFormat="DD/MM/YYYY HH:mm" [(ngModel)]="food_log.intake_date"></ion-datetime>\n      </ion-item>\n      \n      <ion-item>\n        <ion-label text-wrap floating>What did you eat?</ion-label>\n        <ion-textarea name="details" formControlName="details" type="text" [(ngModel)]="food_log.details" [class.invalid]="!slideOneForm.controls.details.valid && (slideOneForm.controls.details.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.details.valid  && (slideOneForm.controls.details.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-log-form.html"*/,
+            selector: 'food-log-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/food-logs/food-log-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>FoodLogs</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item>\n        <ion-label floating>Meal</ion-label>\n        <ion-select [(ngModel)]="food_log.meal" name="meal" formControlName="meal">\n          <ion-option value="Breakfast">Breakfast</ion-option>\n          <ion-option value="Lunch">Lunch</ion-option>\n          <ion-option value="Dinner">Dinner</ion-option>\n          <ion-option value="Snack">Snack</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Date</ion-label>\n        <ion-datetime name="intake_date" formControlName="intake_date" displayFormat="DD/MM/YYYY HH:mm" [(ngModel)]="food_log.intake_date"></ion-datetime>\n      </ion-item>\n      \n      <ion-item>\n        <ion-label text-wrap floating>What did you eat?</ion-label>\n        <ion-textarea name="details" formControlName="details" type="text" [(ngModel)]="food_log.details" [class.invalid]="!slideOneForm.controls.details.valid && (slideOneForm.controls.details.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.details.valid  && (slideOneForm.controls.details.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/food-logs/food-log-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_food_log_api__["a" /* FoodLogApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -1665,19 +1665,19 @@ var FoodLogForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 379:
+/***/ 387:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScheduleCreate; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__workouts_workouts__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__workouts_workouts__ = __webpack_require__(77);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1749,14 +1749,14 @@ var ScheduleCreate = /** @class */ (function () {
     ], ScheduleCreate.prototype, "workouts", void 0);
     ScheduleCreate = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'schedule-create',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-create.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Create a schedule for yourself</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card-title class="center">\n    Please select the day of the week for the different kinds of runs\n  </ion-card-title>\n  <p class="center">\n    You need to leave 1 day gap between each run.\n  </p>\n\n  <ion-list no-lines>\n\n    <form>\n\n      <ion-item *ngFor="let workout of schedule">\n        <ion-label>{{workout.label}}</ion-label>\n        <ion-select [(ngModel)]="workout.day" name="{{workout.label}}">\n          <ion-option value="1">Mon</ion-option>\n          <ion-option value="2">Tue</ion-option>\n          <ion-option value="3">Wed</ion-option>\n          <ion-option value="4">Thur</ion-option>\n          <ion-option value="5">Fri</ion-option>\n          <ion-option value="6">Sat</ion-option>\n          <ion-option value="7">Sun</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <button ion-button full color="primary" (click)="save()">Save</button>\n    </form>\n\n  </ion-list>\n\n  <ion-card-title class="center">\n      Workout Details\n  </ion-card-title>\n    \n  <workouts #workouts></workouts>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-create.html"*/,
+            selector: 'schedule-create',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-create.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Create a schedule for yourself</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card-title class="center">\n    Please select the day of the week for the different kinds of runs\n  </ion-card-title>\n  <p class="center">\n    You need to leave 1 day gap between each run.\n  </p>\n\n  <ion-list no-lines>\n\n    <form>\n\n      <ion-item *ngFor="let workout of schedule">\n        <ion-label>{{workout.label}}</ion-label>\n        <ion-select [(ngModel)]="workout.day" name="{{workout.label}}">\n          <ion-option value="1">Mon</ion-option>\n          <ion-option value="2">Tue</ion-option>\n          <ion-option value="3">Wed</ion-option>\n          <ion-option value="4">Thur</ion-option>\n          <ion-option value="5">Fri</ion-option>\n          <ion-option value="6">Sat</ion-option>\n          <ion-option value="7">Sun</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <button ion-button full color="primary" (click)="save()">Save</button>\n    </form>\n\n  </ion-list>\n\n  <ion-card-title class="center">\n      Workout Details\n  </ion-card-title>\n    \n  <workouts #workouts></workouts>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-create.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__["a" /* ScheduleApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -1769,7 +1769,7 @@ var ScheduleCreate = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 380:
+/***/ 388:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1777,8 +1777,8 @@ var ScheduleCreate = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__goal_form__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__goal_form__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__ = __webpack_require__(81);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1824,10 +1824,10 @@ var Goals = /** @class */ (function () {
     };
     Goals = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'goals',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goals.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset >\n\n    <button ion-item *ngFor="let goal of goals" (click)=getGoalDetails(goal)>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("REASON")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.reason}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("DELIGHT")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.delight}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("FREQ")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.frequency}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("CURRENT_ACTIVITY")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.current_activity}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goals.html"*/,
+            selector: 'goals',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/goals/goals.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset >\n\n    <button ion-item *ngFor="let goal of goals" (click)=getGoalDetails(goal)>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("REASON")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.reason}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("DELIGHT")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.delight}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("FREQ")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.frequency}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">{{getGoalText("CURRENT_ACTIVITY")}}</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{goal.current_activity}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/goals/goals.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__["a" /* GoalApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
     ], Goals);
@@ -1838,14 +1838,14 @@ var Goals = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 381:
+/***/ 389:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PasswordReset; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_token__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_config__ = __webpack_require__(46);
@@ -1878,9 +1878,9 @@ var PasswordReset = /** @class */ (function () {
         this.http = http;
         this.headerInfo = {};
         this.slideOneForm = formBuilder.group({
-            token: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])],
-            password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])],
-            confirm_password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])],
+            token: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])],
+            password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])],
+            confirm_password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])],
         });
     }
     PasswordReset.prototype.ionViewDidLoad = function () {
@@ -1930,13 +1930,13 @@ var PasswordReset = /** @class */ (function () {
     };
     PasswordReset = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-password-reset',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/login/password-reset.html"*/'<!--\n  Generated template for the Login page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Reset Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n\n    <ion-card-content>\n      <form [formGroup]="slideOneForm">\n        <ion-item>\n          <ion-label floating>Token</ion-label>\n          <ion-input formControlName="token" name="token" type="text" [(ngModel)]="token" [class.invalid]="!slideOneForm.controls.token.valid && (slideOneForm.controls.token.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating>Password</ion-label>\n          <ion-input formControlName="password" name="password" type="password" [(ngModel)]="password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating>Confirm Password</ion-label>\n          <ion-input formControlName="confirm_password" name="confirm_password" type="password" [(ngModel)]="confirm_password" [class.invalid]="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n        \n\n      </form>\n\n      <ion-row>\n\n        <ion-col>\n          <button ion-button full color="secondary" (click)="reset()">Reset Password</button>\n        </ion-col>\n      </ion-row>\n\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/login/password-reset.html"*/,
+            selector: 'page-password-reset',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/login/password-reset.html"*/'<!--\n  Generated template for the Login page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Reset Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n\n    <ion-card-content>\n      <form [formGroup]="slideOneForm">\n        <ion-item>\n          <ion-label floating>Token</ion-label>\n          <ion-input formControlName="token" name="token" type="text" [(ngModel)]="token" [class.invalid]="!slideOneForm.controls.token.valid && (slideOneForm.controls.token.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating>Password</ion-label>\n          <ion-input formControlName="password" name="password" type="password" [(ngModel)]="password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating>Confirm Password</ion-label>\n          <ion-input formControlName="confirm_password" name="confirm_password" type="password" [(ngModel)]="confirm_password" [class.invalid]="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)"></ion-input>\n        </ion-item>\n        \n\n      </form>\n\n      <ion-row>\n\n        <ion-col>\n          <button ion-button full color="secondary" (click)="reset()">Reset Password</button>\n        </ion-col>\n      </ion-row>\n\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/login/password-reset.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* Config */],
             __WEBPACK_IMPORTED_MODULE_6__angular_http__["b" /* Http */]])
@@ -1948,14 +1948,14 @@ var PasswordReset = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 382:
+/***/ 390:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact__ = __webpack_require__(84);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1981,9 +1981,9 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Aadit Life </ion-title>\n\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      <p>Lifestyle coaching by Aadit Life helps individuals and groups set meaningful wellness goals - and achieve them. \n      </p>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <p>The program was established in 2015 by Anand Valavi , and has significantly impacted the wellness of over a thousand people with diverse fitness and age profiles. \n      </p>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <p>The corporate programs have been been well received with measurable improvements in group wellness and engagement levels.         \n      </p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/about.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/static/about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Aadit Life </ion-title>\n\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      <p>Lifestyle coaching by Aadit Life helps individuals and groups set meaningful wellness goals - and achieve them. \n      </p>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <p>The program was established in 2015 by Anand Valavi , and has significantly impacted the wellness of over a thousand people with diverse fitness and age profiles. \n      </p>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-content>\n      <p>The corporate programs have been been well received with measurable improvements in group wellness and engagement levels.         \n      </p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/static/about.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"]])
     ], AboutPage);
     return AboutPage;
 }());
@@ -1992,7 +1992,7 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 383:
+/***/ 391:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2020,9 +2020,9 @@ var HelpPage = /** @class */ (function () {
     };
     HelpPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-help',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/help.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Help</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      Please visit our help page at \n      <a href="http://blog.aadit_life.co.uk/faq">http://blog.aadit_life.co.uk/faq</a>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/help.html"*/,
+            selector: 'page-help',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/static/help.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Help</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      Please visit our help page at \n      <a href="http://blog.aadit_life.co.uk/faq">http://blog.aadit_life.co.uk/faq</a>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/static/help.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"]])
     ], HelpPage);
     return HelpPage;
 }());
@@ -2031,7 +2031,7 @@ var HelpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 384:
+/***/ 392:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2039,8 +2039,8 @@ var HelpPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stress_test_form__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stress_test_form__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2090,10 +2090,10 @@ var StressTests = /** @class */ (function () {
     };
     StressTests = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'stress-tests',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-tests.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let stress_test of stress_tests" (click)=getStressTestDetails(stress_test)>\n\n      Test Date: {{stress_test.created_at | date}}\n      <p> Score: {{stress_test.score}}\n      </p>\n      <p> Status: {{stress_test.score_interpretation}}\n      </p>\n\n\n    </button>\n\n  </ion-list>\n\n  <ion-fab bottom right>\n    <button ion-fab (click)="newStressTestDetails()">+</button>\n  </ion-fab>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-tests.html"*/,
+            selector: 'stress-tests',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-tests.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let stress_test of stress_tests" (click)=getStressTestDetails(stress_test)>\n\n      Test Date: {{stress_test.created_at | date}}\n      <p> Score: {{stress_test.score}}\n      </p>\n      <p> Status: {{stress_test.score_interpretation}}\n      </p>\n\n\n    </button>\n\n  </ion-list>\n\n  <ion-fab bottom right>\n    <button ion-fab (click)="newStressTestDetails()">+</button>\n  </ion-fab>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-tests.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__["a" /* StressTestApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
     ], StressTests);
@@ -2104,16 +2104,16 @@ var StressTests = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 385:
+/***/ 393:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StressTestForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2148,16 +2148,16 @@ var StressTestForm = /** @class */ (function () {
         this.stress_test = this.navParams.data;
         console.log(this.stress_test);
         this.slideOneForm = formBuilder.group({
-            unexpected_upset: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            unable_to_control: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            nervous: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            confident: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            things_going_right: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            cannot_cope: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            control_irritation: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            top_of_things: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            anger: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            difficulties_piling: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            unexpected_upset: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            unable_to_control: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            nervous: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            confident: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            things_going_right: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            cannot_cope: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            control_irritation: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            top_of_things: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            anger: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            difficulties_piling: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
         });
         this.questions = Object.keys(this.stress_testApi.getAllText());
     }
@@ -2207,14 +2207,14 @@ var StressTestForm = /** @class */ (function () {
     };
     StressTestForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'stress-test-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-test-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item-divider text-center color="secondary" *ngIf="stress_test.score_interpretation">\n        Score: {{stress_test.score}}, {{stress_test.score_interpretation}}\n      </ion-item-divider>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("unexpected_upset")}}</ion-label>\n        <ion-select formControlName="unexpected_upset" [(ngModel)]="stress_test.unexpected_upset" name="unexpected_upset">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.unexpected_upset.valid  && (slideOneForm.controls.unexpected_upset.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("unable_to_control")}}</ion-label>\n        <ion-select formControlName="unable_to_control" [(ngModel)]="stress_test.unable_to_control" name="unable_to_control">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.unable_to_control.valid  && (slideOneForm.controls.unable_to_control.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("nervous")}}</ion-label>\n        <ion-select formControlName="nervous" [(ngModel)]="stress_test.nervous" name="nervous">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.nervous.valid  && (slideOneForm.controls.nervous.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("confident")}}</ion-label>\n        <ion-select formControlName="confident" [(ngModel)]="stress_test.confident" name="confident">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.confident.valid  && (slideOneForm.controls.confident.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("things_going_right")}}</ion-label>\n        <ion-select formControlName="things_going_right" [(ngModel)]="stress_test.things_going_right" name="things_going_right">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.things_going_right.valid  && (slideOneForm.controls.things_going_right.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("cannot_cope")}}</ion-label>\n        <ion-select formControlName="cannot_cope" [(ngModel)]="stress_test.cannot_cope" name="cannot_cope">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.cannot_cope.valid  && (slideOneForm.controls.cannot_cope.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("control_irritation")}}</ion-label>\n        <ion-select formControlName="control_irritation" [(ngModel)]="stress_test.control_irritation" name="control_irritation">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.control_irritation.valid  && (slideOneForm.controls.control_irritation.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("top_of_things")}}</ion-label>\n        <ion-select formControlName="top_of_things" [(ngModel)]="stress_test.top_of_things" name="top_of_things">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.top_of_things.valid  && (slideOneForm.controls.top_of_things.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("anger")}}</ion-label>\n        <ion-select formControlName="anger" [(ngModel)]="stress_test.anger" name="anger">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.anger.valid  && (slideOneForm.controls.anger.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("difficulties_piling")}}</ion-label>\n        <ion-select formControlName="difficulties_piling" [(ngModel)]="stress_test.difficulties_piling" name="difficulties_piling">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.difficulties_piling.valid  && (slideOneForm.controls.difficulties_piling.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-test-form.html"*/,
+            selector: 'stress-test-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-test-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTests</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item-divider text-center color="secondary" *ngIf="stress_test.score_interpretation">\n        Score: {{stress_test.score}}, {{stress_test.score_interpretation}}\n      </ion-item-divider>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("unexpected_upset")}}</ion-label>\n        <ion-select formControlName="unexpected_upset" [(ngModel)]="stress_test.unexpected_upset" name="unexpected_upset">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.unexpected_upset.valid  && (slideOneForm.controls.unexpected_upset.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("unable_to_control")}}</ion-label>\n        <ion-select formControlName="unable_to_control" [(ngModel)]="stress_test.unable_to_control" name="unable_to_control">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.unable_to_control.valid  && (slideOneForm.controls.unable_to_control.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("nervous")}}</ion-label>\n        <ion-select formControlName="nervous" [(ngModel)]="stress_test.nervous" name="nervous">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.nervous.valid  && (slideOneForm.controls.nervous.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("confident")}}</ion-label>\n        <ion-select formControlName="confident" [(ngModel)]="stress_test.confident" name="confident">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.confident.valid  && (slideOneForm.controls.confident.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("things_going_right")}}</ion-label>\n        <ion-select formControlName="things_going_right" [(ngModel)]="stress_test.things_going_right" name="things_going_right">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.things_going_right.valid  && (slideOneForm.controls.things_going_right.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("cannot_cope")}}</ion-label>\n        <ion-select formControlName="cannot_cope" [(ngModel)]="stress_test.cannot_cope" name="cannot_cope">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.cannot_cope.valid  && (slideOneForm.controls.cannot_cope.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("control_irritation")}}</ion-label>\n        <ion-select formControlName="control_irritation" [(ngModel)]="stress_test.control_irritation" name="control_irritation">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.control_irritation.valid  && (slideOneForm.controls.control_irritation.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("top_of_things")}}</ion-label>\n        <ion-select formControlName="top_of_things" [(ngModel)]="stress_test.top_of_things" name="top_of_things">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.top_of_things.valid  && (slideOneForm.controls.top_of_things.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("anger")}}</ion-label>\n        <ion-select formControlName="anger" [(ngModel)]="stress_test.anger" name="anger">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.anger.valid  && (slideOneForm.controls.anger.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>{{getStressTestText("difficulties_piling")}}</ion-label>\n        <ion-select formControlName="difficulties_piling" [(ngModel)]="stress_test.difficulties_piling" name="difficulties_piling">\n          <ion-option value="Never">Never</ion-option>\n          <ion-option value="Almost Never">Almost Never</ion-option>\n          <ion-option value="Sometimes">Sometimes</ion-option>\n          <ion-option value="Fairly Often">Fairly Often</ion-option>\n          <ion-option value="Very Often">Very Often</ion-option>\n        </ion-select>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.difficulties_piling.valid  && (slideOneForm.controls.difficulties_piling.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-test-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_stress_test_api__["a" /* StressTestApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -2227,7 +2227,7 @@ var StressTestForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 386:
+/***/ 394:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2235,11 +2235,11 @@ var StressTestForm = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home__ = __webpack_require__(387);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__food_logs_food_logs__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedules_schedules__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__food_logs_food_logs__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedules_schedules__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__login_login__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__login_login__ = __webpack_require__(83);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2279,10 +2279,10 @@ var TabsPage = /** @class */ (function () {
         });
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/home/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="loginRoot" [tabsHideOnSubPages]="true" [show]="currentUser == null"></ion-tab>\n    <ion-tab [root]="homeRoot" tabTitle="Home" tabIcon="home" [show]="currentUser != null"></ion-tab>\n    <ion-tab [root]="foodLogRoot" tabTitle="Food Log" tabIcon="pizza"  [show]="currentUser != null"></ion-tab>\n    <ion-tab [root]="scheduleRoot" tabTitle="Schedule" tabIcon="clock" [show]="currentUser != null"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/home/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/home/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="loginRoot" [tabsHideOnSubPages]="true" [show]="currentUser == null"></ion-tab>\n    <ion-tab [root]="homeRoot" tabTitle="Home" tabIcon="home" [show]="currentUser != null"></ion-tab>\n    <ion-tab [root]="foodLogRoot" tabTitle="Food Log" tabIcon="pizza"  [show]="currentUser != null"></ion-tab>\n    <ion-tab [root]="scheduleRoot" tabTitle="Schedule" tabIcon="clock" [show]="currentUser != null"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/home/tabs.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_6__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Events"],
             __WEBPACK_IMPORTED_MODULE_2_angular2_token__["a" /* Angular2TokenService */]])
     ], TabsPage);
     return TabsPage;
@@ -2292,7 +2292,7 @@ var TabsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 387:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2300,15 +2300,15 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__users_register__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__users_register__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_config__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__static_contact__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_home_events__ = __webpack_require__(388);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__goals_goal_form__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__schedules_schedule_details__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__static_contact__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_home_events__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__goals_goal_form__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__schedules_schedule_details__ = __webpack_require__(397);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2388,13 +2388,13 @@ var HomePage = /** @class */ (function () {
     ], HomePage.prototype, "scheduleDetails", void 0);
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar id="homeNavBar">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>AaditLife</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card *ngIf="!currentUser">\n    <img src="assets/home.jpg" />\n    <ion-card-content>\n      <ion-card-title class="center">\n        Please Login or Register\n      </ion-card-title>\n      <p text-center>\n        The most popular way to train for a run\n      </p>\n    </ion-card-content>\n\n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear small color="primary" icon-left (click)="login()">\n          <ion-icon name=\'key\'></ion-icon>\n          Login\n        </button>\n      </ion-col>\n      <ion-col text-center>\n        <button ion-button clear small color="secondary" icon-left (click)="register()">\n          <ion-icon name=\'create\'></ion-icon>\n          Register\n        </button>\n      </ion-col>\n      <ion-col text-right>\n        <button ion-button clear small color="danger" icon-left (click)="contact()">\n          <ion-icon name=\'call\'></ion-icon>\n          Contact\n        </button>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <div class="home-page">\n    <ion-card *ngIf="currentUser">\n      <img class="home_image" src="assets/home.jpg" />\n      <div class="card-title">Welcome</div>\n      <div class="card-subtitle">{{currentUser.first_name}} {{currentUser.last_name}}</div>\n    </ion-card>\n  </div>\n\n  <ion-card class="home_schedule">\n    <schedule-details #scheduleDetails>Todays Schedule</schedule-details>\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar id="homeNavBar">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>AaditLife</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card *ngIf="!currentUser">\n    <img src="assets/home.jpg" />\n    <ion-card-content>\n      <ion-card-title class="center">\n        Please Login or Register\n      </ion-card-title>\n      <p text-center>\n        The most popular way to train for a run\n      </p>\n    </ion-card-content>\n\n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear small color="primary" icon-left (click)="login()">\n          <ion-icon name=\'key\'></ion-icon>\n          Login\n        </button>\n      </ion-col>\n      <ion-col text-center>\n        <button ion-button clear small color="secondary" icon-left (click)="register()">\n          <ion-icon name=\'create\'></ion-icon>\n          Register\n        </button>\n      </ion-col>\n      <ion-col text-right>\n        <button ion-button clear small color="danger" icon-left (click)="contact()">\n          <ion-icon name=\'call\'></ion-icon>\n          Contact\n        </button>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n\n  <div class="home-page">\n    <ion-card *ngIf="currentUser">\n      <img class="home_image" src="assets/home.jpg" />\n      <div class="card-title">Welcome</div>\n      <div class="card-subtitle">{{currentUser.first_name}} {{currentUser.last_name}}</div>\n    </ion-card>\n  </div>\n\n  <ion-card class="home_schedule">\n    <schedule-details #scheduleDetails>Todays Schedule</schedule-details>\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */],
             __WEBPACK_IMPORTED_MODULE_2_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_6__providers_config__["a" /* Config */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Events"],
             __WEBPACK_IMPORTED_MODULE_9__providers_home_events__["a" /* HomeEvents */],
             __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__["a" /* LoginProvider */]])
     ], HomePage);
@@ -2405,7 +2405,7 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 388:
+/***/ 396:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2478,7 +2478,7 @@ var HomeEvents = /** @class */ (function () {
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__response_utility__["a" /* ResponseUtility */],
             __WEBPACK_IMPORTED_MODULE_1_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_3__config__["a" /* Config */],
-            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["c" /* Events */]])
+            __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["Events"]])
     ], HomeEvents);
     return HomeEvents;
 }());
@@ -2487,16 +2487,16 @@ var HomeEvents = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 389:
+/***/ 397:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScheduleDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_schedule_api__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_schedule_api__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__schedule_form__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__schedule_form__ = __webpack_require__(148);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2572,18 +2572,18 @@ var ScheduleDetails = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])("schedule_content"),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Content"])
     ], ScheduleDetails.prototype, "content", void 0);
     ScheduleDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'schedule-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-details.html"*/'<ion-header>\n\n  <ion-navbar color="primary" *ngIf="showNavbar">\n    <ion-title>Schedule</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding #schedule_content (click)=rateSchedule(schedule)>\n\n  <ion-list inset *ngIf="schedule && schedule.workout_type">\n    <ion-item-divider class="schedule_header" text-wrap text-center [style.backgroundColor]="(schedule.workout_type != \'Strength\') ? \'#32db64\' : \'#488aff\'">\n      <h2>{{schedule.scheduled_date | date}} : {{schedule.workout_type}}</h2>\n      <ion-icon name=\'checkbox\' item-right *ngIf="schedule.completed"></ion-icon>\n      <ion-icon name=\'warning\' item-right *ngIf="schedule.completed==false"></ion-icon>\n    </ion-item-divider>\n\n\n    <div *ngIf="schedule.exercise && schedule.workout_type != \'Strength\'">\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Activity Time:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.activity_time}} mins\n          </ion-col>\n          <ion-col text-wrap>\n            Activity Speed:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.activity_speed}} Kmh\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Recovery Time\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.recovery_time}} mins\n          </ion-col>\n          <ion-col text-wrap>\n            Recovery Speed:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.recovery_speed}} Kmh\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Repeats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.repeats}}\n          </ion-col>\n          <ion-col text-wrap>\n            Total Duration:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.total_duration}} mins\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </div>\n\n    <div *ngIf="schedule.workout_type == \'Strength\'">\n      <ion-item>\n        <ion-row *ngIf="schedule.exercise.balance && schedule.exercise.balance > 0">\n          <ion-col text-wrap>\n            Balance:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.balance}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.plank && schedule.exercise.plank > 0">\n          <ion-col text-wrap>\n            Plank:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.plank}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.pushups && schedule.exercise.pushups > 0">\n          <ion-col text-wrap>\n            Push Ups:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.pushups}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.one_leg_raise && schedule.exercise.one_leg_raise > 0">\n          <ion-col text-wrap>\n            One Leg Raise:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.one_leg_raise}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.leg_raise_both && schedule.exercise.leg_raise_both > 0">\n          <ion-col text-wrap>\n            Leg Raise Both:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.leg_raise_both}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.squats && schedule.exercise.squats > 0">\n          <ion-col text-wrap>\n            Squats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.squats}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.crunches && schedule.exercise.crunches > 0">\n          <ion-col text-wrap>\n            Crunches:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.crunches}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.superman && schedule.exercise.superman > 0">\n          <ion-col text-wrap>\n            Superman:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.superman}} seconds\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n\n\n    </div>\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedule-details.html"*/,
+            selector: 'schedule-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-details.html"*/'<ion-header>\n\n  <ion-navbar color="primary" *ngIf="showNavbar">\n    <ion-title>Schedule</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding #schedule_content (click)=rateSchedule(schedule)>\n\n  <ion-list inset *ngIf="schedule && schedule.workout_type">\n    <ion-item-divider class="schedule_header" text-wrap text-center [style.backgroundColor]="(schedule.workout_type != \'Strength\') ? \'#32db64\' : \'#488aff\'">\n      <h2>{{schedule.scheduled_date | date}} : {{schedule.workout_type}}</h2>\n      <ion-icon name=\'checkbox\' item-right *ngIf="schedule.completed"></ion-icon>\n      <ion-icon name=\'warning\' item-right *ngIf="schedule.completed==false"></ion-icon>\n    </ion-item-divider>\n\n\n    <div *ngIf="schedule.exercise && schedule.workout_type != \'Strength\'">\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Activity Time:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.activity_time}} mins\n          </ion-col>\n          <ion-col text-wrap>\n            Activity Speed:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.activity_speed}} Kmh\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Recovery Time\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.recovery_time}} mins\n          </ion-col>\n          <ion-col text-wrap>\n            Recovery Speed:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.recovery_speed}} Kmh\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item>\n        <ion-row>\n          <ion-col text-wrap>\n            Repeats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.repeats}}\n          </ion-col>\n          <ion-col text-wrap>\n            Total Duration:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.total_duration}} mins\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </div>\n\n    <div *ngIf="schedule.workout_type == \'Strength\'">\n      <ion-item>\n        <ion-row *ngIf="schedule.exercise.balance && schedule.exercise.balance > 0">\n          <ion-col text-wrap>\n            Balance:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.balance}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.plank && schedule.exercise.plank > 0">\n          <ion-col text-wrap>\n            Plank:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.plank}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.pushups && schedule.exercise.pushups > 0">\n          <ion-col text-wrap>\n            Push Ups:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.pushups}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.one_leg_raise && schedule.exercise.one_leg_raise > 0">\n          <ion-col text-wrap>\n            One Leg Raise:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.one_leg_raise}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.leg_raise_both && schedule.exercise.leg_raise_both > 0">\n          <ion-col text-wrap>\n            Leg Raise Both:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.leg_raise_both}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.squats && schedule.exercise.squats > 0">\n          <ion-col text-wrap>\n            Squats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.squats}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.crunches && schedule.exercise.crunches > 0">\n          <ion-col text-wrap>\n            Crunches:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.crunches}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="schedule.exercise.superman && schedule.exercise.superman > 0">\n          <ion-col text-wrap>\n            Superman:\n          </ion-col>\n          <ion-col text-wrap>\n            {{schedule.exercise.superman}} seconds\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n\n\n    </div>\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/schedules/schedule-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_schedule_api__["a" /* ScheduleApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], ScheduleDetails);
     return ScheduleDetails;
@@ -2593,7 +2593,7 @@ var ScheduleDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 391:
+/***/ 399:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2601,7 +2601,7 @@ var ScheduleDetails = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js__ = __webpack_require__(524);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js__ = __webpack_require__(536);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_chart_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2671,10 +2671,10 @@ var CardioProfiles = /** @class */ (function () {
     ], CardioProfiles.prototype, "lineCanvas", void 0);
     CardioProfiles = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'cardio_profiles',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/cardio-profile/cardio-profiles.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>CardioProfiles</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-card>\n    <ion-card-header>\n      Speed Kmph vs Heart Rate (BPM)\n    </ion-card-header>\n    <ion-card-content>\n      <canvas #lineCanvas></canvas>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-list inset>\n\n    <ion-item no-lines>\n      <ion-row>\n        <ion-col text-center>\n          Speed Kmph\n        </ion-col>\n        <ion-col text-center>\n          Heart Rate (BPM)\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <div ion-item *ngFor="let cardio_profile of cardio_profiles">\n\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-center>\n            {{cardio_profile.speed}}\n          </ion-col>\n          <ion-col text-center>\n            {{cardio_profile.bpm}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </div>\n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/cardio-profile/cardio-profiles.html"*/,
+            selector: 'cardio_profiles',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/cardio-profile/cardio-profiles.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>CardioProfiles</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-card>\n    <ion-card-header>\n      Speed Kmph vs Heart Rate (BPM)\n    </ion-card-header>\n    <ion-card-content>\n      <canvas #lineCanvas></canvas>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-list inset>\n\n    <ion-item no-lines>\n      <ion-row>\n        <ion-col text-center>\n          Speed Kmph\n        </ion-col>\n        <ion-col text-center>\n          Heart Rate (BPM)\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <div ion-item *ngFor="let cardio_profile of cardio_profiles">\n\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-center>\n            {{cardio_profile.speed}}\n          </ion-col>\n          <ion-col text-center>\n            {{cardio_profile.bpm}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </div>\n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/cardio-profile/cardio-profiles.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
     ], CardioProfiles);
     return CardioProfiles;
@@ -2783,13 +2783,13 @@ var UserApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 411:
+/***/ 419:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(430);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -2797,91 +2797,94 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 422:
+/***/ 430:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__ = __webpack_require__(475);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file__ = __webpack_require__(483);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_transfer__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_path__ = __webpack_require__(485);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_transfer__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_path__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_sentry_errorhandler__ = __webpack_require__(486);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_code_push__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__(492);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_home_home__ = __webpack_require__(387);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_home_tabs__ = __webpack_require__(386);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_login_login__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_login_password_reset__ = __webpack_require__(381);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_storage__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_ionic2_rating__ = __webpack_require__(515);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_users_users__ = __webpack_require__(517);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_users_user_tabs__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_users_user_form__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_users_user_details__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_users_phone_verification__ = __webpack_require__(518);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_users_register__ = __webpack_require__(146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_fitness_tests_fitness_tests__ = __webpack_require__(252);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_workouts_workouts__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workout_details__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_goals_goals__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_goals_goal_details__ = __webpack_require__(519);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_form__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_stress_tests_stress_tests__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_test_details__ = __webpack_require__(520);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_form__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_medicals_medicals__ = __webpack_require__(521);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medical_details__ = __webpack_require__(522);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_form__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_food_logs_food_logs__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_log_details__ = __webpack_require__(523);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_form__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_schedules_schedules__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedule_details__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_form__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_create___ = __webpack_require__(379);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_cardio_profile_cardio_profiles__ = __webpack_require__(391);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_static_about__ = __webpack_require__(382);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_static_help__ = __webpack_require__(383);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__pages_static_terms__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__pages_static_contact__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__pages_fitness_tests_fitness_test_details__ = __webpack_require__(569);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__ionic_native_diagnostic__ = __webpack_require__(570);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ionic_native_status_bar__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__ionic_native_splash_screen__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53_angular2_moment__ = __webpack_require__(571);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_53_angular2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__providers_user_api__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__providers_company_api__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__providers_workout_api__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__providers_strength_workout_api__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__providers_goal_api__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__providers_stress_test_api__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__providers_medical_api__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__providers_food_log_api__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__providers_fitness_test_api__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__providers_config__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__angular_http__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__ionic_native_push__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__pipes_title_case_title_case__ = __webpack_require__(573);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__pipes_utc_date_utc_date__ = __webpack_require__(574);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__providers_login_provider__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__providers_home_events__ = __webpack_require__(388);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__ionic_native_google_analytics__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__providers_schedule_api__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ion2_calendar__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ion2_calendar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_ion2_calendar__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_sentry_errorhandler__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_code_push__ = __webpack_require__(377);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_component__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_home_home__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_tabs__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_login_login__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_login_password_reset__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_storage__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_angular2_token__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_ionic2_rating__ = __webpack_require__(527);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_users_users__ = __webpack_require__(529);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_users_user_tabs__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_users_user_form__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_users_user_details__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_users_phone_verification__ = __webpack_require__(530);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_users_register__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_fitness_tests_fitness_tests__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workouts__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_workouts_workout_details__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_goals_goals__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_details__ = __webpack_require__(531);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_goals_goal_form__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_tests__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_details__ = __webpack_require__(532);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_stress_tests_stress_test_form__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medicals__ = __webpack_require__(533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_details__ = __webpack_require__(534);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_medicals_medical_form__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_logs__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_details__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_food_logs_food_log_form__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedules__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_details__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_form__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_schedules_schedule_create___ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_cardio_profile_cardio_profiles__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_static_about__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__pages_static_help__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__pages_static_terms__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__pages_static_contact__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__pages_fitness_tests_fitness_test_details__ = __webpack_require__(581);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ionic_native_diagnostic__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__ionic_native_status_bar__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ionic_native_splash_screen__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54_angular2_moment__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_54_angular2_moment__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__providers_user_api__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__providers_company_api__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__providers_workout_api__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__providers_strength_workout_api__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__providers_goal_api__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__providers_stress_test_api__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__providers_medical_api__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__providers_food_log_api__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__providers_fitness_test_api__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__providers_config__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__angular_http__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__providers_response_utility__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__ionic_native_push__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__pipes_title_case_title_case__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__pipes_utc_date_utc_date__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__providers_login_provider__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__providers_home_events__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__ionic_native_google_analytics__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__providers_schedule_api__ = __webpack_require__(59);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -2962,124 +2965,125 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_home_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_login_login__["a" /* Login */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_login_password_reset__["a" /* PasswordReset */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_users_users__["a" /* Users */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_users_user_tabs__["a" /* UserTabs */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_users_user_form__["a" /* UserForm */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_users_user_details__["a" /* UserDetails */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_fitness_tests_fitness_tests__["a" /* FitnessTests */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_workouts_workouts__["a" /* Workouts */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workout_details__["a" /* WorkoutDetails */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_goals_goals__["a" /* Goals */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_goals_goal_details__["a" /* GoalDetails */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_form__["a" /* GoalForm */],
-                __WEBPACK_IMPORTED_MODULE_37__pages_food_logs_food_logs__["a" /* FoodLogs */],
-                __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_log_details__["a" /* FoodLogDetails */],
-                __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_form__["a" /* FoodLogForm */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_stress_tests_stress_tests__["a" /* StressTests */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_test_details__["a" /* StressTestDetails */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_form__["a" /* StressTestForm */],
-                __WEBPACK_IMPORTED_MODULE_34__pages_medicals_medicals__["a" /* Medicals */],
-                __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medical_details__["a" /* MedicalDetails */],
-                __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_form__["a" /* MedicalForm */],
-                __WEBPACK_IMPORTED_MODULE_40__pages_schedules_schedules__["a" /* Schedules */],
-                __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedule_details__["a" /* ScheduleDetails */],
-                __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_form__["a" /* ScheduleForm */],
-                __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_create___["a" /* ScheduleCreate */],
-                __WEBPACK_IMPORTED_MODULE_44__pages_cardio_profile_cardio_profiles__["a" /* CardioProfiles */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_users_phone_verification__["a" /* PhoneVerificationPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_users_register__["a" /* RegisterPage */],
-                __WEBPACK_IMPORTED_MODULE_67__pipes_title_case_title_case__["a" /* TitleCasePipe */],
-                __WEBPACK_IMPORTED_MODULE_68__pipes_utc_date_utc_date__["a" /* UtcDatePipe */],
-                __WEBPACK_IMPORTED_MODULE_45__pages_static_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_46__pages_static_help__["a" /* HelpPage */],
-                __WEBPACK_IMPORTED_MODULE_48__pages_static_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_47__pages_static_terms__["a" /* TermsPage */],
-                __WEBPACK_IMPORTED_MODULE_49__pages_fitness_tests_fitness_test_details__["a" /* FitnessTestDetails */]
+                __WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_home_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_login_login__["a" /* Login */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_login_password_reset__["a" /* PasswordReset */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_users_users__["a" /* Users */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_users_user_tabs__["a" /* UserTabs */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_users_user_form__["a" /* UserForm */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_users_user_details__["a" /* UserDetails */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_fitness_tests_fitness_tests__["a" /* FitnessTests */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workouts__["a" /* Workouts */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_workouts_workout_details__["a" /* WorkoutDetails */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_goals_goals__["a" /* Goals */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_details__["a" /* GoalDetails */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_goals_goal_form__["a" /* GoalForm */],
+                __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_logs__["a" /* FoodLogs */],
+                __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_details__["a" /* FoodLogDetails */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_food_logs_food_log_form__["a" /* FoodLogForm */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_tests__["a" /* StressTests */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_details__["a" /* StressTestDetails */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_stress_tests_stress_test_form__["a" /* StressTestForm */],
+                __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medicals__["a" /* Medicals */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_details__["a" /* MedicalDetails */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_medicals_medical_form__["a" /* MedicalForm */],
+                __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedules__["a" /* Schedules */],
+                __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_details__["a" /* ScheduleDetails */],
+                __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_form__["a" /* ScheduleForm */],
+                __WEBPACK_IMPORTED_MODULE_44__pages_schedules_schedule_create___["a" /* ScheduleCreate */],
+                __WEBPACK_IMPORTED_MODULE_45__pages_cardio_profile_cardio_profiles__["a" /* CardioProfiles */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_users_phone_verification__["a" /* PhoneVerificationPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_users_register__["a" /* RegisterPage */],
+                __WEBPACK_IMPORTED_MODULE_68__pipes_title_case_title_case__["a" /* TitleCasePipe */],
+                __WEBPACK_IMPORTED_MODULE_69__pipes_utc_date_utc_date__["a" /* UtcDatePipe */],
+                __WEBPACK_IMPORTED_MODULE_46__pages_static_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_47__pages_static_help__["a" /* HelpPage */],
+                __WEBPACK_IMPORTED_MODULE_49__pages_static_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_48__pages_static_terms__["a" /* TermsPage */],
+                __WEBPACK_IMPORTED_MODULE_50__pages_fitness_tests_fitness_test_details__["a" /* FitnessTestDetails */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_64__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_65__angular_http__["c" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* RouterModule */],
-                __WEBPACK_IMPORTED_MODULE_53_angular2_moment__["MomentModule"],
-                __WEBPACK_IMPORTED_MODULE_18_ionic2_rating__["a" /* Ionic2RatingModule */],
-                __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_54_angular2_moment__["MomentModule"],
+                __WEBPACK_IMPORTED_MODULE_9_ion2_calendar__["CalendarModule"],
+                __WEBPACK_IMPORTED_MODULE_19_ionic2_rating__["a" /* Ionic2RatingModule */],
+                __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["IonicModule"].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/users/users.module#UsersModule', name: 'Users', segment: 'users', priority: 'low', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_16__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+                __WEBPACK_IMPORTED_MODULE_17__ionic_storage__["a" /* IonicStorageModule */].forRoot()
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["IonicApp"]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_home_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_login_login__["a" /* Login */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_login_password_reset__["a" /* PasswordReset */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_users_users__["a" /* Users */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_users_user_tabs__["a" /* UserTabs */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_users_user_form__["a" /* UserForm */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_users_user_details__["a" /* UserDetails */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_users_phone_verification__["a" /* PhoneVerificationPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_users_register__["a" /* RegisterPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_fitness_tests_fitness_tests__["a" /* FitnessTests */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_workouts_workouts__["a" /* Workouts */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workout_details__["a" /* WorkoutDetails */],
-                __WEBPACK_IMPORTED_MODULE_37__pages_food_logs_food_logs__["a" /* FoodLogs */],
-                __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_log_details__["a" /* FoodLogDetails */],
-                __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_form__["a" /* FoodLogForm */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_goals_goals__["a" /* Goals */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_goals_goal_details__["a" /* GoalDetails */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_form__["a" /* GoalForm */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_stress_tests_stress_tests__["a" /* StressTests */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_test_details__["a" /* StressTestDetails */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_form__["a" /* StressTestForm */],
-                __WEBPACK_IMPORTED_MODULE_34__pages_medicals_medicals__["a" /* Medicals */],
-                __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medical_details__["a" /* MedicalDetails */],
-                __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_form__["a" /* MedicalForm */],
-                __WEBPACK_IMPORTED_MODULE_40__pages_schedules_schedules__["a" /* Schedules */],
-                __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedule_details__["a" /* ScheduleDetails */],
-                __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_form__["a" /* ScheduleForm */],
-                __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_create___["a" /* ScheduleCreate */],
-                __WEBPACK_IMPORTED_MODULE_44__pages_cardio_profile_cardio_profiles__["a" /* CardioProfiles */],
-                __WEBPACK_IMPORTED_MODULE_45__pages_static_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_46__pages_static_help__["a" /* HelpPage */],
-                __WEBPACK_IMPORTED_MODULE_48__pages_static_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_47__pages_static_terms__["a" /* TermsPage */]
+                __WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_home_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_login_login__["a" /* Login */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_login_password_reset__["a" /* PasswordReset */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_users_users__["a" /* Users */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_users_user_tabs__["a" /* UserTabs */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_users_user_form__["a" /* UserForm */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_users_user_details__["a" /* UserDetails */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_users_phone_verification__["a" /* PhoneVerificationPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_users_register__["a" /* RegisterPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_fitness_tests_fitness_tests__["a" /* FitnessTests */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_workouts_workouts__["a" /* Workouts */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_workouts_workout_details__["a" /* WorkoutDetails */],
+                __WEBPACK_IMPORTED_MODULE_38__pages_food_logs_food_logs__["a" /* FoodLogs */],
+                __WEBPACK_IMPORTED_MODULE_39__pages_food_logs_food_log_details__["a" /* FoodLogDetails */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_food_logs_food_log_form__["a" /* FoodLogForm */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_goals_goals__["a" /* Goals */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_goals_goal_details__["a" /* GoalDetails */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_goals_goal_form__["a" /* GoalForm */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_stress_tests_stress_tests__["a" /* StressTests */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_stress_tests_stress_test_details__["a" /* StressTestDetails */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_stress_tests_stress_test_form__["a" /* StressTestForm */],
+                __WEBPACK_IMPORTED_MODULE_35__pages_medicals_medicals__["a" /* Medicals */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_medicals_medical_details__["a" /* MedicalDetails */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_medicals_medical_form__["a" /* MedicalForm */],
+                __WEBPACK_IMPORTED_MODULE_41__pages_schedules_schedules__["a" /* Schedules */],
+                __WEBPACK_IMPORTED_MODULE_42__pages_schedules_schedule_details__["a" /* ScheduleDetails */],
+                __WEBPACK_IMPORTED_MODULE_43__pages_schedules_schedule_form__["a" /* ScheduleForm */],
+                __WEBPACK_IMPORTED_MODULE_44__pages_schedules_schedule_create___["a" /* ScheduleCreate */],
+                __WEBPACK_IMPORTED_MODULE_45__pages_cardio_profile_cardio_profiles__["a" /* CardioProfiles */],
+                __WEBPACK_IMPORTED_MODULE_46__pages_static_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_47__pages_static_help__["a" /* HelpPage */],
+                __WEBPACK_IMPORTED_MODULE_49__pages_static_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_48__pages_static_terms__["a" /* TermsPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_66__ionic_native_push__["a" /* Push */],
-                __WEBPACK_IMPORTED_MODULE_10__ionic_native_code_push__["a" /* CodePush */],
-                __WEBPACK_IMPORTED_MODULE_71__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
-                __WEBPACK_IMPORTED_MODULE_63__providers_config__["a" /* Config */],
-                __WEBPACK_IMPORTED_MODULE_69__providers_login_provider__["a" /* LoginProvider */],
-                __WEBPACK_IMPORTED_MODULE_54__providers_user_api__["a" /* UserApi */],
-                __WEBPACK_IMPORTED_MODULE_55__providers_company_api__["a" /* CompanyApi */],
-                __WEBPACK_IMPORTED_MODULE_62__providers_fitness_test_api__["a" /* FitnessTestApi */],
-                __WEBPACK_IMPORTED_MODULE_56__providers_workout_api__["a" /* WorkoutApi */],
-                __WEBPACK_IMPORTED_MODULE_57__providers_strength_workout_api__["a" /* StrengthWorkoutApi */],
-                __WEBPACK_IMPORTED_MODULE_61__providers_food_log_api__["a" /* FoodLogApi */],
-                __WEBPACK_IMPORTED_MODULE_58__providers_goal_api__["a" /* GoalApi */],
-                __WEBPACK_IMPORTED_MODULE_59__providers_stress_test_api__["a" /* StressTestApi */],
-                __WEBPACK_IMPORTED_MODULE_60__providers_medical_api__["a" /* MedicalApi */],
-                __WEBPACK_IMPORTED_MODULE_72__providers_schedule_api__["a" /* ScheduleApi */],
-                __WEBPACK_IMPORTED_MODULE_65__providers_response_utility__["a" /* ResponseUtility */],
-                __WEBPACK_IMPORTED_MODULE_51__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_52__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_67__ionic_native_push__["a" /* Push */],
+                __WEBPACK_IMPORTED_MODULE_11__ionic_native_code_push__["a" /* CodePush */],
+                __WEBPACK_IMPORTED_MODULE_72__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
+                __WEBPACK_IMPORTED_MODULE_64__providers_config__["a" /* Config */],
+                __WEBPACK_IMPORTED_MODULE_70__providers_login_provider__["a" /* LoginProvider */],
+                __WEBPACK_IMPORTED_MODULE_55__providers_user_api__["a" /* UserApi */],
+                __WEBPACK_IMPORTED_MODULE_56__providers_company_api__["a" /* CompanyApi */],
+                __WEBPACK_IMPORTED_MODULE_63__providers_fitness_test_api__["a" /* FitnessTestApi */],
+                __WEBPACK_IMPORTED_MODULE_57__providers_workout_api__["a" /* WorkoutApi */],
+                __WEBPACK_IMPORTED_MODULE_58__providers_strength_workout_api__["a" /* StrengthWorkoutApi */],
+                __WEBPACK_IMPORTED_MODULE_62__providers_food_log_api__["a" /* FoodLogApi */],
+                __WEBPACK_IMPORTED_MODULE_59__providers_goal_api__["a" /* GoalApi */],
+                __WEBPACK_IMPORTED_MODULE_60__providers_stress_test_api__["a" /* StressTestApi */],
+                __WEBPACK_IMPORTED_MODULE_61__providers_medical_api__["a" /* MedicalApi */],
+                __WEBPACK_IMPORTED_MODULE_73__providers_schedule_api__["a" /* ScheduleApi */],
+                __WEBPACK_IMPORTED_MODULE_66__providers_response_utility__["a" /* ResponseUtility */],
+                __WEBPACK_IMPORTED_MODULE_52__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_53__ionic_native_splash_screen__["a" /* SplashScreen */],
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_keyboard__["a" /* Keyboard */],
-                __WEBPACK_IMPORTED_MODULE_17_angular2_token__["a" /* Angular2TokenService */],
+                __WEBPACK_IMPORTED_MODULE_18_angular2_token__["a" /* Angular2TokenService */],
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */],
-                __WEBPACK_IMPORTED_MODULE_50__ionic_native_diagnostic__["a" /* Diagnostic */],
+                __WEBPACK_IMPORTED_MODULE_51__ionic_native_diagnostic__["a" /* Diagnostic */],
                 __WEBPACK_IMPORTED_MODULE_5__ionic_native_file__["a" /* File */],
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_path__["a" /* FilePath */],
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_transfer__["a" /* Transfer */],
-                __WEBPACK_IMPORTED_MODULE_70__providers_home_events__["a" /* HomeEvents */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_9__services_sentry_errorhandler__["a" /* SentryErrorHandler */] }
+                __WEBPACK_IMPORTED_MODULE_71__providers_home_events__["a" /* HomeEvents */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_10__services_sentry_errorhandler__["a" /* SentryErrorHandler */] }
             ]
         })
     ], AppModule);
@@ -3144,13 +3148,282 @@ var Config = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 486:
+/***/ 496:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 248,
+	"./af.js": 248,
+	"./ar": 249,
+	"./ar-dz": 250,
+	"./ar-dz.js": 250,
+	"./ar-kw": 251,
+	"./ar-kw.js": 251,
+	"./ar-ly": 252,
+	"./ar-ly.js": 252,
+	"./ar-ma": 253,
+	"./ar-ma.js": 253,
+	"./ar-sa": 254,
+	"./ar-sa.js": 254,
+	"./ar-tn": 255,
+	"./ar-tn.js": 255,
+	"./ar.js": 249,
+	"./az": 256,
+	"./az.js": 256,
+	"./be": 257,
+	"./be.js": 257,
+	"./bg": 258,
+	"./bg.js": 258,
+	"./bm": 259,
+	"./bm.js": 259,
+	"./bn": 260,
+	"./bn.js": 260,
+	"./bo": 261,
+	"./bo.js": 261,
+	"./br": 262,
+	"./br.js": 262,
+	"./bs": 263,
+	"./bs.js": 263,
+	"./ca": 264,
+	"./ca.js": 264,
+	"./cs": 265,
+	"./cs.js": 265,
+	"./cv": 266,
+	"./cv.js": 266,
+	"./cy": 267,
+	"./cy.js": 267,
+	"./da": 268,
+	"./da.js": 268,
+	"./de": 269,
+	"./de-at": 270,
+	"./de-at.js": 270,
+	"./de-ch": 271,
+	"./de-ch.js": 271,
+	"./de.js": 269,
+	"./dv": 272,
+	"./dv.js": 272,
+	"./el": 273,
+	"./el.js": 273,
+	"./en-au": 274,
+	"./en-au.js": 274,
+	"./en-ca": 275,
+	"./en-ca.js": 275,
+	"./en-gb": 276,
+	"./en-gb.js": 276,
+	"./en-ie": 277,
+	"./en-ie.js": 277,
+	"./en-il": 278,
+	"./en-il.js": 278,
+	"./en-nz": 279,
+	"./en-nz.js": 279,
+	"./eo": 280,
+	"./eo.js": 280,
+	"./es": 281,
+	"./es-do": 282,
+	"./es-do.js": 282,
+	"./es-us": 283,
+	"./es-us.js": 283,
+	"./es.js": 281,
+	"./et": 284,
+	"./et.js": 284,
+	"./eu": 285,
+	"./eu.js": 285,
+	"./fa": 286,
+	"./fa.js": 286,
+	"./fi": 287,
+	"./fi.js": 287,
+	"./fo": 288,
+	"./fo.js": 288,
+	"./fr": 289,
+	"./fr-ca": 290,
+	"./fr-ca.js": 290,
+	"./fr-ch": 291,
+	"./fr-ch.js": 291,
+	"./fr.js": 289,
+	"./fy": 292,
+	"./fy.js": 292,
+	"./gd": 293,
+	"./gd.js": 293,
+	"./gl": 294,
+	"./gl.js": 294,
+	"./gom-latn": 295,
+	"./gom-latn.js": 295,
+	"./gu": 296,
+	"./gu.js": 296,
+	"./he": 297,
+	"./he.js": 297,
+	"./hi": 298,
+	"./hi.js": 298,
+	"./hr": 299,
+	"./hr.js": 299,
+	"./hu": 300,
+	"./hu.js": 300,
+	"./hy-am": 301,
+	"./hy-am.js": 301,
+	"./id": 302,
+	"./id.js": 302,
+	"./is": 303,
+	"./is.js": 303,
+	"./it": 304,
+	"./it.js": 304,
+	"./ja": 305,
+	"./ja.js": 305,
+	"./jv": 306,
+	"./jv.js": 306,
+	"./ka": 307,
+	"./ka.js": 307,
+	"./kk": 308,
+	"./kk.js": 308,
+	"./km": 309,
+	"./km.js": 309,
+	"./kn": 310,
+	"./kn.js": 310,
+	"./ko": 311,
+	"./ko.js": 311,
+	"./ky": 312,
+	"./ky.js": 312,
+	"./lb": 313,
+	"./lb.js": 313,
+	"./lo": 314,
+	"./lo.js": 314,
+	"./lt": 315,
+	"./lt.js": 315,
+	"./lv": 316,
+	"./lv.js": 316,
+	"./me": 317,
+	"./me.js": 317,
+	"./mi": 318,
+	"./mi.js": 318,
+	"./mk": 319,
+	"./mk.js": 319,
+	"./ml": 320,
+	"./ml.js": 320,
+	"./mn": 321,
+	"./mn.js": 321,
+	"./mr": 322,
+	"./mr.js": 322,
+	"./ms": 323,
+	"./ms-my": 324,
+	"./ms-my.js": 324,
+	"./ms.js": 323,
+	"./mt": 325,
+	"./mt.js": 325,
+	"./my": 326,
+	"./my.js": 326,
+	"./nb": 327,
+	"./nb.js": 327,
+	"./ne": 328,
+	"./ne.js": 328,
+	"./nl": 329,
+	"./nl-be": 330,
+	"./nl-be.js": 330,
+	"./nl.js": 329,
+	"./nn": 331,
+	"./nn.js": 331,
+	"./pa-in": 332,
+	"./pa-in.js": 332,
+	"./pl": 333,
+	"./pl.js": 333,
+	"./pt": 334,
+	"./pt-br": 335,
+	"./pt-br.js": 335,
+	"./pt.js": 334,
+	"./ro": 336,
+	"./ro.js": 336,
+	"./ru": 337,
+	"./ru.js": 337,
+	"./sd": 338,
+	"./sd.js": 338,
+	"./se": 339,
+	"./se.js": 339,
+	"./si": 340,
+	"./si.js": 340,
+	"./sk": 341,
+	"./sk.js": 341,
+	"./sl": 342,
+	"./sl.js": 342,
+	"./sq": 343,
+	"./sq.js": 343,
+	"./sr": 344,
+	"./sr-cyrl": 345,
+	"./sr-cyrl.js": 345,
+	"./sr.js": 344,
+	"./ss": 346,
+	"./ss.js": 346,
+	"./sv": 347,
+	"./sv.js": 347,
+	"./sw": 348,
+	"./sw.js": 348,
+	"./ta": 349,
+	"./ta.js": 349,
+	"./te": 350,
+	"./te.js": 350,
+	"./tet": 351,
+	"./tet.js": 351,
+	"./tg": 352,
+	"./tg.js": 352,
+	"./th": 353,
+	"./th.js": 353,
+	"./tl-ph": 354,
+	"./tl-ph.js": 354,
+	"./tlh": 355,
+	"./tlh.js": 355,
+	"./tr": 356,
+	"./tr.js": 356,
+	"./tzl": 357,
+	"./tzl.js": 357,
+	"./tzm": 358,
+	"./tzm-latn": 359,
+	"./tzm-latn.js": 359,
+	"./tzm.js": 358,
+	"./ug-cn": 360,
+	"./ug-cn.js": 360,
+	"./uk": 361,
+	"./uk.js": 361,
+	"./ur": 362,
+	"./ur.js": 362,
+	"./uz": 363,
+	"./uz-latn": 364,
+	"./uz-latn.js": 364,
+	"./uz.js": 363,
+	"./vi": 365,
+	"./vi.js": 365,
+	"./x-pseudo": 366,
+	"./x-pseudo.js": 366,
+	"./yo": 367,
+	"./yo.js": 367,
+	"./zh-cn": 368,
+	"./zh-cn.js": 368,
+	"./zh-hk": 369,
+	"./zh-hk.js": 369,
+	"./zh-tw": 370,
+	"./zh-tw.js": 370
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 496;
+
+/***/ }),
+
+/***/ 500:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SentryErrorHandler; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_raven_js__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_raven_js__ = __webpack_require__(375);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_raven_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_raven_js__);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -3196,44 +3469,44 @@ var SentryErrorHandler = /** @class */ (function (_super) {
         }
     };
     return SentryErrorHandler;
-}(__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["e" /* IonicErrorHandler */]));
+}(__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["IonicErrorHandler"]));
 
 //# sourceMappingURL=sentry-errorhandler.js.map
 
 /***/ }),
 
-/***/ 492:
+/***/ 506:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(379);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_token__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_config__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_push__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_push__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_users_user_tabs__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_users_user_form__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fitness_tests_fitness_tests__ = __webpack_require__(252);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_workouts_workouts__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_food_logs_food_logs__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_schedules_schedules__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_goals_goals__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_goals_goal_form__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_medicals_medical_form__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_login_login__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_static_about__ = __webpack_require__(382);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_static_help__ = __webpack_require__(383);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_static_terms__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_static_contact__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_code_push__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_google_analytics__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_stress_tests_stress_tests__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_home_tabs__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_users_user_tabs__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_users_user_form__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fitness_tests_fitness_tests__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_workouts_workouts__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_food_logs_food_logs__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_schedules_schedules__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_goals_goals__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_goals_goal_form__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_medicals_medical_form__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_login_login__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_static_about__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_static_help__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_static_terms__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_static_contact__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_code_push__ = __webpack_require__(377);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_google_analytics__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_stress_tests_stress_tests__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_home_tabs__ = __webpack_require__(394);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3538,24 +3811,24 @@ var MyApp = /** @class */ (function () {
         }
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Nav"]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Nav"])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/app/app.html"*/'\n\n<ion-menu [content]="content" type="overlay" class="menu-bar">\n  <ion-header>\n    <ion-toolbar color="sidemenu">\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n      <div *ngIf="currentUser != null">\n        <button menuClose ion-item (click)="show_settings()">\n          Settings\n        </button>\n        <button menuClose ion-item (click)="logout()">\n          Logout\n        </button>\n      </div>\n\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false">{{syncStatusMsg}}</ion-nav>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/app/app.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/app/app.html"*/'\n\n<ion-menu [content]="content" type="overlay" class="menu-bar">\n  <ion-header>\n    <ion-toolbar color="sidemenu">\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n      <div *ngIf="currentUser != null">\n        <button menuClose ion-item (click)="show_settings()">\n          Settings\n        </button>\n        <button menuClose ion-item (click)="logout()">\n          Logout\n        </button>\n      </div>\n\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false">{{syncStatusMsg}}</ion-nav>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/app/app.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_24__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
             __WEBPACK_IMPORTED_MODULE_23__ionic_native_code_push__["a" /* CodePush */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Platform"],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_push__["a" /* Push */],
             __WEBPACK_IMPORTED_MODULE_4_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* Config */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Events"],
             __WEBPACK_IMPORTED_MODULE_8__providers_response_utility__["a" /* ResponseUtility */],
             __WEBPACK_IMPORTED_MODULE_7__providers_login_provider__["a" /* LoginProvider */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"]])
     ], MyApp);
     return MyApp;
 }());
@@ -3564,7 +3837,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 509:
+/***/ 523:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3587,276 +3860,7 @@ var CheckboxValidator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 514:
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./af": 256,
-	"./af.js": 256,
-	"./ar": 257,
-	"./ar-dz": 258,
-	"./ar-dz.js": 258,
-	"./ar-kw": 259,
-	"./ar-kw.js": 259,
-	"./ar-ly": 260,
-	"./ar-ly.js": 260,
-	"./ar-ma": 261,
-	"./ar-ma.js": 261,
-	"./ar-sa": 262,
-	"./ar-sa.js": 262,
-	"./ar-tn": 263,
-	"./ar-tn.js": 263,
-	"./ar.js": 257,
-	"./az": 264,
-	"./az.js": 264,
-	"./be": 265,
-	"./be.js": 265,
-	"./bg": 266,
-	"./bg.js": 266,
-	"./bm": 267,
-	"./bm.js": 267,
-	"./bn": 268,
-	"./bn.js": 268,
-	"./bo": 269,
-	"./bo.js": 269,
-	"./br": 270,
-	"./br.js": 270,
-	"./bs": 271,
-	"./bs.js": 271,
-	"./ca": 272,
-	"./ca.js": 272,
-	"./cs": 273,
-	"./cs.js": 273,
-	"./cv": 274,
-	"./cv.js": 274,
-	"./cy": 275,
-	"./cy.js": 275,
-	"./da": 276,
-	"./da.js": 276,
-	"./de": 277,
-	"./de-at": 278,
-	"./de-at.js": 278,
-	"./de-ch": 279,
-	"./de-ch.js": 279,
-	"./de.js": 277,
-	"./dv": 280,
-	"./dv.js": 280,
-	"./el": 281,
-	"./el.js": 281,
-	"./en-au": 282,
-	"./en-au.js": 282,
-	"./en-ca": 283,
-	"./en-ca.js": 283,
-	"./en-gb": 284,
-	"./en-gb.js": 284,
-	"./en-ie": 285,
-	"./en-ie.js": 285,
-	"./en-il": 286,
-	"./en-il.js": 286,
-	"./en-nz": 287,
-	"./en-nz.js": 287,
-	"./eo": 288,
-	"./eo.js": 288,
-	"./es": 289,
-	"./es-do": 290,
-	"./es-do.js": 290,
-	"./es-us": 291,
-	"./es-us.js": 291,
-	"./es.js": 289,
-	"./et": 292,
-	"./et.js": 292,
-	"./eu": 293,
-	"./eu.js": 293,
-	"./fa": 294,
-	"./fa.js": 294,
-	"./fi": 295,
-	"./fi.js": 295,
-	"./fo": 296,
-	"./fo.js": 296,
-	"./fr": 297,
-	"./fr-ca": 298,
-	"./fr-ca.js": 298,
-	"./fr-ch": 299,
-	"./fr-ch.js": 299,
-	"./fr.js": 297,
-	"./fy": 300,
-	"./fy.js": 300,
-	"./gd": 301,
-	"./gd.js": 301,
-	"./gl": 302,
-	"./gl.js": 302,
-	"./gom-latn": 303,
-	"./gom-latn.js": 303,
-	"./gu": 304,
-	"./gu.js": 304,
-	"./he": 305,
-	"./he.js": 305,
-	"./hi": 306,
-	"./hi.js": 306,
-	"./hr": 307,
-	"./hr.js": 307,
-	"./hu": 308,
-	"./hu.js": 308,
-	"./hy-am": 309,
-	"./hy-am.js": 309,
-	"./id": 310,
-	"./id.js": 310,
-	"./is": 311,
-	"./is.js": 311,
-	"./it": 312,
-	"./it.js": 312,
-	"./ja": 313,
-	"./ja.js": 313,
-	"./jv": 314,
-	"./jv.js": 314,
-	"./ka": 315,
-	"./ka.js": 315,
-	"./kk": 316,
-	"./kk.js": 316,
-	"./km": 317,
-	"./km.js": 317,
-	"./kn": 318,
-	"./kn.js": 318,
-	"./ko": 319,
-	"./ko.js": 319,
-	"./ky": 320,
-	"./ky.js": 320,
-	"./lb": 321,
-	"./lb.js": 321,
-	"./lo": 322,
-	"./lo.js": 322,
-	"./lt": 323,
-	"./lt.js": 323,
-	"./lv": 324,
-	"./lv.js": 324,
-	"./me": 325,
-	"./me.js": 325,
-	"./mi": 326,
-	"./mi.js": 326,
-	"./mk": 327,
-	"./mk.js": 327,
-	"./ml": 328,
-	"./ml.js": 328,
-	"./mn": 329,
-	"./mn.js": 329,
-	"./mr": 330,
-	"./mr.js": 330,
-	"./ms": 331,
-	"./ms-my": 332,
-	"./ms-my.js": 332,
-	"./ms.js": 331,
-	"./mt": 333,
-	"./mt.js": 333,
-	"./my": 334,
-	"./my.js": 334,
-	"./nb": 335,
-	"./nb.js": 335,
-	"./ne": 336,
-	"./ne.js": 336,
-	"./nl": 337,
-	"./nl-be": 338,
-	"./nl-be.js": 338,
-	"./nl.js": 337,
-	"./nn": 339,
-	"./nn.js": 339,
-	"./pa-in": 340,
-	"./pa-in.js": 340,
-	"./pl": 341,
-	"./pl.js": 341,
-	"./pt": 342,
-	"./pt-br": 343,
-	"./pt-br.js": 343,
-	"./pt.js": 342,
-	"./ro": 344,
-	"./ro.js": 344,
-	"./ru": 345,
-	"./ru.js": 345,
-	"./sd": 346,
-	"./sd.js": 346,
-	"./se": 347,
-	"./se.js": 347,
-	"./si": 348,
-	"./si.js": 348,
-	"./sk": 349,
-	"./sk.js": 349,
-	"./sl": 350,
-	"./sl.js": 350,
-	"./sq": 351,
-	"./sq.js": 351,
-	"./sr": 352,
-	"./sr-cyrl": 353,
-	"./sr-cyrl.js": 353,
-	"./sr.js": 352,
-	"./ss": 354,
-	"./ss.js": 354,
-	"./sv": 355,
-	"./sv.js": 355,
-	"./sw": 356,
-	"./sw.js": 356,
-	"./ta": 357,
-	"./ta.js": 357,
-	"./te": 358,
-	"./te.js": 358,
-	"./tet": 359,
-	"./tet.js": 359,
-	"./tg": 360,
-	"./tg.js": 360,
-	"./th": 361,
-	"./th.js": 361,
-	"./tl-ph": 362,
-	"./tl-ph.js": 362,
-	"./tlh": 363,
-	"./tlh.js": 363,
-	"./tr": 364,
-	"./tr.js": 364,
-	"./tzl": 365,
-	"./tzl.js": 365,
-	"./tzm": 366,
-	"./tzm-latn": 367,
-	"./tzm-latn.js": 367,
-	"./tzm.js": 366,
-	"./ug-cn": 368,
-	"./ug-cn.js": 368,
-	"./uk": 369,
-	"./uk.js": 369,
-	"./ur": 370,
-	"./ur.js": 370,
-	"./uz": 371,
-	"./uz-latn": 372,
-	"./uz-latn.js": 372,
-	"./uz.js": 371,
-	"./vi": 373,
-	"./vi.js": 373,
-	"./x-pseudo": 374,
-	"./x-pseudo.js": 374,
-	"./yo": 375,
-	"./yo.js": 375,
-	"./zh-cn": 376,
-	"./zh-cn.js": 376,
-	"./zh-hk": 377,
-	"./zh-hk.js": 377,
-	"./zh-tw": 378,
-	"./zh-tw.js": 378
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 514;
-
-/***/ }),
-
-/***/ 517:
+/***/ 529:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3865,7 +3869,7 @@ webpackContext.id = 514;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_user_api__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__users_user_details__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__users_user_details__ = __webpack_require__(144);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3913,10 +3917,10 @@ var Users = /** @class */ (function () {
     };
     Users = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-users',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/users.html"*/'<!--\n  Generated template for the Users page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Users</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n      \n    <button ion-item *ngFor="let user of users" (click)=getUserDetails(user)>\n      <ion-thumbnail item-left>\n        <img [src]="user.image">\n      </ion-thumbnail> \n      \n      {{user.first_name}} {{user.last_name}} \n      <p>\n        {{user.phone}}\n      </p>\n      <p>\n        {{user.email}}\n      </p>\n       <p> \n        {{user.role}}\n      </p>\n      \n\n      <p>\n        <ion-badge\n          *ngIf="(user.role == \'Coach\') && user.verified != true" \n          item-right [color]="danger">\n          Pending Verification\n        </ion-badge> \n      \n      </p>\n\n    </button>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/users.html"*/,
+            selector: 'page-users',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/users.html"*/'<!--\n  Generated template for the Users page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Users</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n      \n    <button ion-item *ngFor="let user of users" (click)=getUserDetails(user)>\n      <ion-thumbnail item-left>\n        <img [src]="user.image">\n      </ion-thumbnail> \n      \n      {{user.first_name}} {{user.last_name}} \n      <p>\n        {{user.phone}}\n      </p>\n      <p>\n        {{user.email}}\n      </p>\n       <p> \n        {{user.role}}\n      </p>\n      \n\n      <p>\n        <ion-badge\n          *ngIf="(user.role == \'Coach\') && user.verified != true" \n          item-right [color]="danger">\n          Pending Verification\n        </ion-badge> \n      \n      </p>\n\n    </button>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/users.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_2__providers_user_api__["a" /* UserApi */], __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], Users);
     return Users;
@@ -3926,14 +3930,14 @@ var Users = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 518:
+/***/ 530:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PhoneVerificationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_token__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_user_api__ = __webpack_require__(40);
@@ -3968,7 +3972,7 @@ var PhoneVerificationPage = /** @class */ (function () {
         this.verification_code = null;
         this.error_msg = null;
         this.slideOneForm = formBuilder.group({
-            verification_code: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].maxLength(5), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].minLength(5), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])],
+            verification_code: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].maxLength(5), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].minLength(5), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])],
         });
         this.current_user = this.tokenService.currentUserData;
         this.verification_code_sent = this.current_user.sms_verification_code != null;
@@ -4023,15 +4027,15 @@ var PhoneVerificationPage = /** @class */ (function () {
     };
     PhoneVerificationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'phone-verification',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/phone-verification.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Phone Verification</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding id="verification_page">\n\n    <ion-list text-wrap>\n\n        <form [formGroup]="slideOneForm" *ngIf="verification_code_sent">\n            <ion-item>\n                <ion-label floating>Verification Code</ion-label>\n                <ion-input name="verification_code" formControlName="verification_code" type="number" [(ngModel)]="verification_code" [class.invalid]="!slideOneForm.controls.verification_code.valid && \n                (slideOneForm.controls.verification_code.dirty)"></ion-input>\n            </ion-item>\n            <ion-item *ngIf="!slideOneForm.controls.verification_code.valid && (slideOneForm.controls.verification_code.dirty)">\n                <p class="error-text">Must be 5 digits.</p>\n            </ion-item>\n\n            <p class="field-hint">\n                Enter the verification code sent to your phone via sms.\n            </p>\n        </form>\n    </ion-list>\n\n\n    <ion-row>\n\n        <ion-col *ngIf="!verification_code_sent">\n            <button name="send_btn" ion-button full color="primary" (click)="confirmSendVerification()">Send Verification Code</button>\n        </ion-col>\n        <ion-col *ngIf="verification_code_sent" col-6>\n            <button name="resend_btn" ion-button full color="primary" (click)="confirmSendVerification()">Resend Code</button>\n        </ion-col>\n        <ion-col *ngIf="verification_code_sent" col-6>\n            <button name="verify_btn" ion-button full color="success" (click)="verifiy_code()" >Verify Code</button>\n        </ion-col>\n\n    </ion-row>\n\n    \n    \n\n    <p class="center error-text" *ngIf="error_msg">{{error_msg}}</p>\n\n    <p class="center">Your registered phone number is {{current_user.phone}}</p>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/phone-verification.html"*/,
+            selector: 'phone-verification',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/phone-verification.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Phone Verification</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding id="verification_page">\n\n    <ion-list text-wrap>\n\n        <form [formGroup]="slideOneForm" *ngIf="verification_code_sent">\n            <ion-item>\n                <ion-label floating>Verification Code</ion-label>\n                <ion-input name="verification_code" formControlName="verification_code" type="number" [(ngModel)]="verification_code" [class.invalid]="!slideOneForm.controls.verification_code.valid && \n                (slideOneForm.controls.verification_code.dirty)"></ion-input>\n            </ion-item>\n            <ion-item *ngIf="!slideOneForm.controls.verification_code.valid && (slideOneForm.controls.verification_code.dirty)">\n                <p class="error-text">Must be 5 digits.</p>\n            </ion-item>\n\n            <p class="field-hint">\n                Enter the verification code sent to your phone via sms.\n            </p>\n        </form>\n    </ion-list>\n\n\n    <ion-row>\n\n        <ion-col *ngIf="!verification_code_sent">\n            <button name="send_btn" ion-button full color="primary" (click)="confirmSendVerification()">Send Verification Code</button>\n        </ion-col>\n        <ion-col *ngIf="verification_code_sent" col-6>\n            <button name="resend_btn" ion-button full color="primary" (click)="confirmSendVerification()">Resend Code</button>\n        </ion-col>\n        <ion-col *ngIf="verification_code_sent" col-6>\n            <button name="verify_btn" ion-button full color="success" (click)="verifiy_code()" >Verify Code</button>\n        </ion-col>\n\n    </ion-row>\n\n    \n    \n\n    <p class="center error-text" *ngIf="error_msg">{{error_msg}}</p>\n\n    <p class="center">Your registered phone number is {{current_user.phone}}</p>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/phone-verification.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_5__providers_user_api__["a" /* UserApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Events"],
             __WEBPACK_IMPORTED_MODULE_4_angular2_token__["a" /* Angular2TokenService */]])
     ], PhoneVerificationPage);
     return PhoneVerificationPage;
@@ -4041,14 +4045,14 @@ var PhoneVerificationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 519:
+/***/ 531:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoalDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_goal_api__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_goal_api__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4101,14 +4105,14 @@ var GoalDetails = /** @class */ (function () {
     };
     GoalDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'goal-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goal-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goal Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getGoalText(goal.goal_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{goal.goal_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goal-details.html"*/,
+            selector: 'goal-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/goals/goal-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goal Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getGoalText(goal.goal_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{goal.goal_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/goals/goal-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_goal_api__["a" /* GoalApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], GoalDetails);
     return GoalDetails;
@@ -4118,14 +4122,14 @@ var GoalDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 520:
+/***/ 532:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StressTestDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_stress_test_api__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_stress_test_api__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4178,14 +4182,14 @@ var StressTestDetails = /** @class */ (function () {
     };
     StressTestDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'stress-test-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-test-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTest Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getStressTestText(stress_test.stress_test_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{stress_test.stress_test_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/stress-tests/stress-test-details.html"*/,
+            selector: 'stress-test-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-test-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>StressTest Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getStressTestText(stress_test.stress_test_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{stress_test.stress_test_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/stress-tests/stress-test-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_stress_test_api__["a" /* StressTestApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], StressTestDetails);
     return StressTestDetails;
@@ -4195,7 +4199,7 @@ var StressTestDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 521:
+/***/ 533:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4203,8 +4207,8 @@ var StressTestDetails = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__medical_form__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__medical_form__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__ = __webpack_require__(82);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4251,10 +4255,10 @@ var Medicals = /** @class */ (function () {
     };
     Medicals = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'medicals',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medicals.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medicals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  \n    <ion-list *ngFor="let medical of medicals" (click)=editMedicalDetails(medical)>\n\n      <ion-item-divider text-wrap color="secondary">The last time I had a medical check up was</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{medical.last_medical_checkup}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">Basic Medical Questions</ion-item-divider>\n      <ion-item>\n        <ion-label text-wrap>I have been told I have a heart condition that requires me to take up only physical activity recommended by a doctor.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q1"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past felt a pain in my chest when I do physical activity / exercise.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q2" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>In the past month I have had chest pain when not doing any physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q3"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past lost balance because I felt dizzy, or lost consciousness.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q4" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have a bone or joint problem that could be made worse with physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q5"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am taking medication for blood pressure or a heart condition.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q6" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am diabetic.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q7"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I sometimes have difficulty breathing - especially in cold dry conditions.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q8" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am aware of some other reason why I should do physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q9"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am pregnant.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q10" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>None of the things listed above apply to me.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q11"></ion-checkbox>\n      </ion-item>\n\n\n      <ion-item-divider text-wrap color="secondary">Any specific issue / concern that you wish to highlight for consideration as you get started with the program?</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{medical.specific_issue}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medicals.html"*/,
+            selector: 'medicals',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/medicals/medicals.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medicals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  \n    <ion-list *ngFor="let medical of medicals" (click)=editMedicalDetails(medical)>\n\n      <ion-item-divider text-wrap color="secondary">The last time I had a medical check up was</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{medical.last_medical_checkup}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n      <ion-item-divider text-wrap color="secondary">Basic Medical Questions</ion-item-divider>\n      <ion-item>\n        <ion-label text-wrap>I have been told I have a heart condition that requires me to take up only physical activity recommended by a doctor.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q1"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past felt a pain in my chest when I do physical activity / exercise.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q2" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>In the past month I have had chest pain when not doing any physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q3"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have in the past lost balance because I felt dizzy, or lost consciousness.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q4" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I have a bone or joint problem that could be made worse with physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q5"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am taking medication for blood pressure or a heart condition.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q6" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am diabetic.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q7"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I sometimes have difficulty breathing - especially in cold dry conditions.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q8" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am aware of some other reason why I should do physical activity.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q9"></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>I am pregnant.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q10" ></ion-checkbox>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap>None of the things listed above apply to me.</ion-label>\n        <ion-checkbox [(ngModel)]="medical.q11"></ion-checkbox>\n      </ion-item>\n\n\n      <ion-item-divider text-wrap color="secondary">Any specific issue / concern that you wish to highlight for consideration as you get started with the program?</ion-item-divider>\n      <ion-item no-lines>\n        <ion-row>\n          <ion-col text-wrap>\n            {{medical.specific_issue}}\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/medicals/medicals.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_medical_api__["a" /* MedicalApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
     ], Medicals);
@@ -4265,14 +4269,14 @@ var Medicals = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 522:
+/***/ 534:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedicalDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_medical_api__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_medical_api__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4325,14 +4329,14 @@ var MedicalDetails = /** @class */ (function () {
     };
     MedicalDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'medical-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medical-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medical Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getMedicalText(medical.medical_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{medical.medical_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/medicals/medical-details.html"*/,
+            selector: 'medical-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/medicals/medical-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Medical Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getMedicalText(medical.medical_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{medical.medical_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/medicals/medical-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_medical_api__["a" /* MedicalApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], MedicalDetails);
     return MedicalDetails;
@@ -4342,14 +4346,14 @@ var MedicalDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 523:
+/***/ 535:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FoodLogDetails; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_food_log_api__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_food_log_api__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4399,14 +4403,14 @@ var FoodLogDetails = /** @class */ (function () {
     };
     FoodLogDetails = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'food-log-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-log-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>FoodLog Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getFoodLogText(food_log.food_log_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{food_log.food_log_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/food-logs/food-log-details.html"*/,
+            selector: 'food-log-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/food-logs/food-log-details.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>FoodLog Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-divider text-wrap color="secondary">{{getFoodLogText(food_log.food_log_name)}}</ion-item-divider>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          {{food_log.food_log_desc}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/food-logs/food-log-details.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
             __WEBPACK_IMPORTED_MODULE_2__providers_food_log_api__["a" /* FoodLogApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
     ], FoodLogDetails);
     return FoodLogDetails;
@@ -4416,118 +4420,7 @@ var FoodLogDetails = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 569:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FitnessTestDetails; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_fitness_test_api__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__workouts_workouts__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedules_schedules__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cardio_profile_cardio_profiles__ = __webpack_require__(391);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-var FitnessTestDetails = /** @class */ (function () {
-    function FitnessTestDetails(navCtrl, navParams, fitness_testApi, alertController, toastController, loadingController, respUtility) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.fitness_testApi = fitness_testApi;
-        this.alertController = alertController;
-        this.toastController = toastController;
-        this.loadingController = loadingController;
-        this.respUtility = respUtility;
-        this.fitness_test = this.navParams.data;
-    }
-    FitnessTestDetails.prototype.ionViewWillEnter = function () {
-        console.log('ionViewWillEnter FitnessTestDetails');
-        this.respUtility.trackView("FitnessTestDetails");
-        // Always reload the fitness_test from the server for a fresh copy
-        this.loadFitnessTest();
-    };
-    FitnessTestDetails.prototype.loadFitnessTest = function () {
-        var _this = this;
-        var loader = this.loadingController.create({
-            content: 'Loading FitnessTest...'
-        });
-        loader.present();
-        this.fitness_testApi.getFitnessTestDetails(this.fitness_test.id).subscribe(function (response) {
-            //this.respUtility.showSuccess("Loaded FitnessTest");
-            _this.fitness_test = response;
-            console.log("Loaded fitness_test");
-            console.log(_this.fitness_test);
-        }, function (error) {
-            _this.respUtility.showFailure(error);
-            loader.dismiss();
-        }, function () { loader.dismiss(); });
-    };
-    FitnessTestDetails.prototype.deactivateFitnessTest = function (fitness_test) {
-        var _this = this;
-        this.respUtility.trackEvent("FitnessTest", "Deactivate", "click");
-        var loader = this.loadingController.create({
-            content: 'Deactivating FitnessTest...'
-        });
-        fitness_test.active = false;
-        loader.present();
-        this.fitness_testApi.updateFitnessTest(fitness_test).subscribe(function (response) {
-            _this.respUtility.showSuccess("Deactivated FitnessTest");
-            _this.navCtrl.pop();
-        }, function (error) {
-            _this.respUtility.showFailure(error);
-            loader.dismiss();
-        }, function () { loader.dismiss(); });
-    };
-    FitnessTestDetails.prototype.confirmDeactivate = function (fitness_test) {
-        this.respUtility.confirmAction(this.deactivateFitnessTest.bind(this), fitness_test, "Deactivate FitnessTest. Confirm?");
-    };
-    FitnessTestDetails.prototype.showWorkouts = function () {
-        this.respUtility.trackEvent("Workout", "Details", "click");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__workouts_workouts__["a" /* Workouts */], { fitness_test_id: this.fitness_test.id });
-    };
-    FitnessTestDetails.prototype.showSchedules = function () {
-        this.respUtility.trackEvent("Schedule", "Details", "click");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__schedules_schedules__["a" /* Schedules */], { fitness_test_id: this.fitness_test.id });
-    };
-    FitnessTestDetails.prototype.showCardioProfile = function () {
-        this.respUtility.trackEvent("CardioProfiles", "Details", "click");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__cardio_profile_cardio_profiles__["a" /* CardioProfiles */], this.fitness_test.cardio_profiles);
-    };
-    FitnessTestDetails = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-fitness-test-details',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/fitness-tests/fitness-test-details.html"*/'<!--\n  Generated template for the FitnessTestDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Fitness Test</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list inset>\n\n    <ion-item color="primary" (click)="showCardioProfile()">\n      Cardio Profile\n      <ion-icon name="heart" item-end></ion-icon>\n    </ion-item>\n    <ion-item color="primary" (click)="showWorkouts()">\n      Workouts\n      <ion-icon name="pulse" item-end></ion-icon>\n    </ion-item>\n    <ion-item color="primary" (click)="showSchedules()">\n      Schedule\n      <ion-icon name="clock" item-end></ion-icon>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Date:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.test_date | date}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Weight:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.weight}} Kgs\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Height:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.height}} \n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat Percentage:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_percentage}} %\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Body Age:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.body_age}} Years\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          BMI:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.bmi}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          RM:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.rm}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Visc Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.visc_fat}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Skin Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.sc_fat}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle Percentage:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_percentage}} %\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Other:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.other_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat Loss:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_loss}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle Gain:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_gain}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Max Speed:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.max_speed}} Kmph\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Max Heart Rate:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.max_heart_rate}} Bpm\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Duration:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.duration}} Mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          Reason for Stopping:\n        </ion-col>\n        <ion-col text-wrap>\n          {{fitness_test.reason_for_stopping}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/fitness-tests/fitness-test-details.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_fitness_test_api__["a" /* FitnessTestApi */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
-    ], FitnessTestDetails);
-    return FitnessTestDetails;
-}());
-
-//# sourceMappingURL=fitness-test-details.js.map
-
-/***/ }),
-
-/***/ 57:
+/***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4624,7 +4517,118 @@ var StressTestApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 573:
+/***/ 581:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FitnessTestDetails; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_fitness_test_api__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__workouts_workouts__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedules_schedules__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cardio_profile_cardio_profiles__ = __webpack_require__(399);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var FitnessTestDetails = /** @class */ (function () {
+    function FitnessTestDetails(navCtrl, navParams, fitness_testApi, alertController, toastController, loadingController, respUtility) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.fitness_testApi = fitness_testApi;
+        this.alertController = alertController;
+        this.toastController = toastController;
+        this.loadingController = loadingController;
+        this.respUtility = respUtility;
+        this.fitness_test = this.navParams.data;
+    }
+    FitnessTestDetails.prototype.ionViewWillEnter = function () {
+        console.log('ionViewWillEnter FitnessTestDetails');
+        this.respUtility.trackView("FitnessTestDetails");
+        // Always reload the fitness_test from the server for a fresh copy
+        this.loadFitnessTest();
+    };
+    FitnessTestDetails.prototype.loadFitnessTest = function () {
+        var _this = this;
+        var loader = this.loadingController.create({
+            content: 'Loading FitnessTest...'
+        });
+        loader.present();
+        this.fitness_testApi.getFitnessTestDetails(this.fitness_test.id).subscribe(function (response) {
+            //this.respUtility.showSuccess("Loaded FitnessTest");
+            _this.fitness_test = response;
+            console.log("Loaded fitness_test");
+            console.log(_this.fitness_test);
+        }, function (error) {
+            _this.respUtility.showFailure(error);
+            loader.dismiss();
+        }, function () { loader.dismiss(); });
+    };
+    FitnessTestDetails.prototype.deactivateFitnessTest = function (fitness_test) {
+        var _this = this;
+        this.respUtility.trackEvent("FitnessTest", "Deactivate", "click");
+        var loader = this.loadingController.create({
+            content: 'Deactivating FitnessTest...'
+        });
+        fitness_test.active = false;
+        loader.present();
+        this.fitness_testApi.updateFitnessTest(fitness_test).subscribe(function (response) {
+            _this.respUtility.showSuccess("Deactivated FitnessTest");
+            _this.navCtrl.pop();
+        }, function (error) {
+            _this.respUtility.showFailure(error);
+            loader.dismiss();
+        }, function () { loader.dismiss(); });
+    };
+    FitnessTestDetails.prototype.confirmDeactivate = function (fitness_test) {
+        this.respUtility.confirmAction(this.deactivateFitnessTest.bind(this), fitness_test, "Deactivate FitnessTest. Confirm?");
+    };
+    FitnessTestDetails.prototype.showWorkouts = function () {
+        this.respUtility.trackEvent("Workout", "Details", "click");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__workouts_workouts__["a" /* Workouts */], { fitness_test_id: this.fitness_test.id });
+    };
+    FitnessTestDetails.prototype.showSchedules = function () {
+        this.respUtility.trackEvent("Schedule", "Details", "click");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__schedules_schedules__["a" /* Schedules */], { fitness_test_id: this.fitness_test.id });
+    };
+    FitnessTestDetails.prototype.showCardioProfile = function () {
+        this.respUtility.trackEvent("CardioProfiles", "Details", "click");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__cardio_profile_cardio_profiles__["a" /* CardioProfiles */], this.fitness_test.cardio_profiles);
+    };
+    FitnessTestDetails = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-fitness-test-details',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/fitness-tests/fitness-test-details.html"*/'<!--\n  Generated template for the FitnessTestDetails page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Fitness Test</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list inset>\n\n    <ion-item color="primary" (click)="showCardioProfile()">\n      Cardio Profile\n      <ion-icon name="heart" item-end></ion-icon>\n    </ion-item>\n    <ion-item color="primary" (click)="showWorkouts()">\n      Workouts\n      <ion-icon name="pulse" item-end></ion-icon>\n    </ion-item>\n    <ion-item color="primary" (click)="showSchedules()">\n      Schedule\n      <ion-icon name="clock" item-end></ion-icon>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Date:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.test_date | date}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Weight:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.weight}} Kgs\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Height:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.height}} \n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat Percentage:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_percentage}} %\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Body Age:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.body_age}} Years\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          BMI:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.bmi}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          RM:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.rm}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Visc Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.visc_fat}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Skin Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.sc_fat}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle Percentage:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_percentage}} %\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Other:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.other_kg}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Fat Loss:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.fat_loss}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Muscle Gain:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.muscle_gain}} Kg\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Max Speed:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.max_speed}} Kmph\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Max Heart Rate:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.max_heart_rate}} Bpm\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col>\n          Duration:\n        </ion-col>\n        <ion-col>\n          {{fitness_test.duration}} Mins\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n    <ion-item>\n      <ion-row>\n        <ion-col text-wrap>\n          Reason for Stopping:\n        </ion-col>\n        <ion-col text-wrap>\n          {{fitness_test.reason_for_stopping}}\n        </ion-col>\n      </ion-row>\n    </ion-item>\n\n\n  </ion-list>\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/fitness-tests/fitness-test-details.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_2__providers_fitness_test_api__["a" /* FitnessTestApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
+            __WEBPACK_IMPORTED_MODULE_3__providers_response_utility__["a" /* ResponseUtility */]])
+    ], FitnessTestDetails);
+    return FitnessTestDetails;
+}());
+
+//# sourceMappingURL=fitness-test-details.js.map
+
+/***/ }),
+
+/***/ 585:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4674,7 +4678,7 @@ var TitleCasePipe = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 574:
+/***/ 586:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4722,7 +4726,7 @@ var UtcDatePipe = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 58:
+/***/ 59:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4831,7 +4835,7 @@ var ScheduleApi = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResponseUtility; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_analytics__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_analytics__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
@@ -4996,9 +5000,9 @@ var ResponseUtility = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["AlertController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ModalController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ToastController"]])
     ], ResponseUtility);
     return ResponseUtility;
 }());
@@ -5007,7 +5011,7 @@ var ResponseUtility = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 72:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5015,11 +5019,11 @@ var ResponseUtility = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__config__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__user_api__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_raven_js__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_raven_js__ = __webpack_require__(375);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_raven_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_raven_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5134,9 +5138,9 @@ var LoginProvider = /** @class */ (function () {
     LoginProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_angular2_token__["a" /* Angular2TokenService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Events"],
             __WEBPACK_IMPORTED_MODULE_4__config__["a" /* Config */],
             __WEBPACK_IMPORTED_MODULE_5__user_api__["a" /* UserApi */],
             __WEBPACK_IMPORTED_MODULE_6__response_utility__["a" /* ResponseUtility */]])
@@ -5148,21 +5152,21 @@ var LoginProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 73:
+/***/ 75:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_api__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__static_terms__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_checkbox_validator__ = __webpack_require__(509);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_company_api__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__static_terms__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_checkbox_validator__ = __webpack_require__(523);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_company_api__ = __webpack_require__(382);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5205,16 +5209,16 @@ var UserForm = /** @class */ (function () {
             }, function (error) { _this.respUtility.showFailure(error); }, function () { });
         }
         this.slideOneForm = formBuilder.group({
-            first_name: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(30), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].pattern('[a-zA-Z0-9_\\-.]*'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            last_name: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(30), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].pattern('[a-zA-Z0-9_\\-.]*'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            email: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9\\-.]+$'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            password: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(6), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            confirm_password: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            gender: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(1), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(1)])],
-            birth_year: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(4), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(4), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].pattern('^\\d+$')])],
+            first_name: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(30), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].pattern('[a-zA-Z0-9_\\-.]*'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            last_name: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(30), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].pattern('[a-zA-Z0-9_\\-.]*'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            email: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9\\-.]+$'), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            password: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(6), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            confirm_password: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            gender: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(1), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(1)])],
+            birth_year: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(4), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(4), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].pattern('^\\d+$')])],
             company_id: [''],
-            accept_terms: [false, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_8__providers_checkbox_validator__["a" /* CheckboxValidator */].isChecked, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            phone: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].maxLength(11), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].pattern('^\\d+$')])],
+            accept_terms: [false, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_8__providers_checkbox_validator__["a" /* CheckboxValidator */].isChecked, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            phone: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].maxLength(11), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].pattern('^\\d+$')])],
         }, { "validator": this.isMatching });
         // Password may not be visible, hence disable validations 
         if (this.user["id"]) {
@@ -5308,15 +5312,15 @@ var UserForm = /** @class */ (function () {
     ], UserForm.prototype, "title", void 0);
     UserForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'page-user-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-form.html"*/'<!--\n  Generated template for the UserForm pemail.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pemails and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>User</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item id="company_id" *ngIf="companies">\n        <ion-label floating>Company</ion-label>\n        <ion-select name="company_id" [(ngModel)]="user.company_id" [class.invalid]="!slideOneForm.controls.company_id.valid && (slideOneForm.controls.company_id.dirty || submitAttempt)"\n          formControlName="company_id">\n          <ion-option  *ngFor="let company of companies" [value]="company.id">{{company.name}}</ion-option>\n        </ion-select>\n      </ion-item>\n\n      \n      <ion-item id="gender">\n        <ion-label floating>Gender</ion-label>\n        <ion-select name="gender" [(ngModel)]="user.gender" [class.invalid]="!slideOneForm.controls.gender.valid && (slideOneForm.controls.gender.dirty || submitAttempt)"\n          formControlName="gender">\n          <ion-option value="M">Male</ion-option>\n          <ion-option value="F">Female</ion-option>\n        </ion-select>\n      </ion-item>\n\n\n      <ion-item>\n        <ion-label floating>First Name</ion-label>\n        <ion-input name="first_name" formControlName="first_name" type="text" [(ngModel)]="user.first_name" [class.invalid]="!slideOneForm.controls.first_name.valid && (slideOneForm.controls.first_name.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.first_name.valid  && (slideOneForm.controls.first_name.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid name.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Last Name</ion-label>\n        <ion-input name="last_name" formControlName="last_name" type="text" [(ngModel)]="user.last_name" [class.invalid]="!slideOneForm.controls.last_name.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.last_name.valid  && (slideOneForm.controls.last_name.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid name.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Email</ion-label>\n        <ion-input name="email" formControlName="email" type="email" [(ngModel)]="user.email" [class.invalid]="!slideOneForm.controls.email.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.email.valid  && (slideOneForm.controls.email.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid email.</p>\n      </ion-item>\n\n      <ion-item *ngIf="!user.id">\n        <ion-label floating>Password</ion-label>\n        <ion-input name="password" formControlName="password" type="password" [(ngModel)]="user.password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n      <ion-item *ngIf="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)">\n        <p class="error-text">Must be min 6 chars long.</p>\n      </ion-item>\n\n\n      <ion-item *ngIf="!user.id">\n        <ion-label floating>Confirm Password</ion-label>\n        <ion-input name="confirm_password" formControlName="confirm_password" type="password" [(ngModel)]="confirm_password" [class.invalid]="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)">\n        <p class="error-text">Passwords dont match.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Phone</ion-label>\n        <ion-input name="phone" formControlName="phone" type="number" [(ngModel)]="user.phone" [class.invalid]="!slideOneForm.controls.phone.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.phone.valid  && (slideOneForm.controls.phone.dirty || submitAttempt)">\n        <p class="error-text">Enter a valid 11 digit phone number starting with 0.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Birth Year</ion-label>\n        <ion-input name="birth_year" formControlName="birth_year" type="number" [(ngModel)]="user.birth_year" [class.invalid]="!slideOneForm.controls.birth_year.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.birth_year.valid  && (slideOneForm.controls.birth_year.dirty || submitAttempt)">\n        <p class="error-text">Enter a valid birth year in YYYY format.</p>\n      </ion-item>\n\n\n      <div *ngIf="user.role == \'Coach\'">\n\n\n      </div>\n\n      <div text-wrap>\n        <ion-item>\n          <ion-checkbox id="accept_terms" [(ngModel)]="user.accept_terms" \n          formControlName="accept_terms" type="text" \n          (ionChange)="onTermsChecked($event)"></ion-checkbox>\n          <ion-label text-warp>I have read and agree to the Terms & Conditions</ion-label>\n        </ion-item>\n        <button ion-button full clear color="primary" (click)="show_terms()">Terms & Conditions</button>\n        <ion-item *ngIf="!slideOneForm.controls.accept_terms.valid  && (slideOneForm.controls.accept_terms.dirty || submitAttempt)">\n          <p class="error-text">Please accept the T&C.</p>\n        </ion-item>\n      </div>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/users/user-form.html"*/,
+            selector: 'page-user-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/users/user-form.html"*/'<!--\n  Generated template for the UserForm pemail.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pemails and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>User</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n      <ion-item id="company_id" *ngIf="companies">\n        <ion-label floating>Company</ion-label>\n        <ion-select name="company_id" [(ngModel)]="user.company_id" [class.invalid]="!slideOneForm.controls.company_id.valid && (slideOneForm.controls.company_id.dirty || submitAttempt)"\n          formControlName="company_id">\n          <ion-option  *ngFor="let company of companies" [value]="company.id">{{company.name}}</ion-option>\n        </ion-select>\n      </ion-item>\n\n      \n      <ion-item id="gender">\n        <ion-label floating>Gender</ion-label>\n        <ion-select name="gender" [(ngModel)]="user.gender" [class.invalid]="!slideOneForm.controls.gender.valid && (slideOneForm.controls.gender.dirty || submitAttempt)"\n          formControlName="gender">\n          <ion-option value="M">Male</ion-option>\n          <ion-option value="F">Female</ion-option>\n        </ion-select>\n      </ion-item>\n\n\n      <ion-item>\n        <ion-label floating>First Name</ion-label>\n        <ion-input name="first_name" formControlName="first_name" type="text" [(ngModel)]="user.first_name" [class.invalid]="!slideOneForm.controls.first_name.valid && (slideOneForm.controls.first_name.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.first_name.valid  && (slideOneForm.controls.first_name.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid name.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Last Name</ion-label>\n        <ion-input name="last_name" formControlName="last_name" type="text" [(ngModel)]="user.last_name" [class.invalid]="!slideOneForm.controls.last_name.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.last_name.valid  && (slideOneForm.controls.last_name.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid name.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Email</ion-label>\n        <ion-input name="email" formControlName="email" type="email" [(ngModel)]="user.email" [class.invalid]="!slideOneForm.controls.email.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.email.valid  && (slideOneForm.controls.email.dirty || submitAttempt)">\n        <p class="error-text">Please enter a valid email.</p>\n      </ion-item>\n\n      <ion-item *ngIf="!user.id">\n        <ion-label floating>Password</ion-label>\n        <ion-input name="password" formControlName="password" type="password" [(ngModel)]="user.password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n      <ion-item *ngIf="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)">\n        <p class="error-text">Must be min 6 chars long.</p>\n      </ion-item>\n\n\n      <ion-item *ngIf="!user.id">\n        <ion-label floating>Confirm Password</ion-label>\n        <ion-input name="confirm_password" formControlName="confirm_password" type="password" [(ngModel)]="confirm_password" [class.invalid]="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.confirm_password.valid && (slideOneForm.controls.confirm_password.dirty || submitAttempt)">\n        <p class="error-text">Passwords dont match.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Phone</ion-label>\n        <ion-input name="phone" formControlName="phone" type="number" [(ngModel)]="user.phone" [class.invalid]="!slideOneForm.controls.phone.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.phone.valid  && (slideOneForm.controls.phone.dirty || submitAttempt)">\n        <p class="error-text">Enter a valid 11 digit phone number starting with 0.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label floating>Birth Year</ion-label>\n        <ion-input name="birth_year" formControlName="birth_year" type="number" [(ngModel)]="user.birth_year" [class.invalid]="!slideOneForm.controls.birth_year.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.birth_year.valid  && (slideOneForm.controls.birth_year.dirty || submitAttempt)">\n        <p class="error-text">Enter a valid birth year in YYYY format.</p>\n      </ion-item>\n\n\n      <div *ngIf="user.role == \'Coach\'">\n\n\n      </div>\n\n      <div text-wrap>\n        <ion-item>\n          <ion-checkbox id="accept_terms" [(ngModel)]="user.accept_terms" \n          formControlName="accept_terms" type="text" \n          (ionChange)="onTermsChecked($event)"></ion-checkbox>\n          <ion-label text-warp>I have read and agree to the Terms & Conditions</ion-label>\n        </ion-item>\n        <button ion-button full clear color="primary" (click)="show_terms()">Terms & Conditions</button>\n        <ion-item *ngIf="!slideOneForm.controls.accept_terms.valid  && (slideOneForm.controls.accept_terms.dirty || submitAttempt)">\n          <p class="error-text">Please accept the T&C.</p>\n        </ion-item>\n      </div>\n\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/users/user-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_user_api__["a" /* UserApi */],
             __WEBPACK_IMPORTED_MODULE_9__providers_company_api__["a" /* CompanyApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -5329,7 +5333,7 @@ var UserForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 74:
+/***/ 76:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5360,9 +5364,9 @@ var TermsPage = /** @class */ (function () {
     };
     TermsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-terms',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/terms.html"*/'<!--\n  Generated template for the TermsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Disclaimer / Liability Waiver</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n    <ion-card-content>\n\n      <p>\n        Aadit Life recommends that you consult with your physician before beginning any exercise program. While the program is conservative,\n        and workouts are based on a wellness evaluation that is conducted, there is still the possibility that an existing\n        condition could be aggravated during the wellness evaluation - or over the course of the program. You should understand\n        that when participating in any exercise, or exercise program, there is the possibility of physical injury. When signing\n        up for the program, and doing the activities that are part of the program, you agree that you do so at your own risk,\n        are voluntarily participating in these activities, assume all risk of injury to yourself, and agree to release and\n        discharge Aadit Life Wellness (OPC) Pvt. Ltd. from any and all claims or causes of action, known or unknown, that\n        may happen during the program.\n      </p>\n      <p>\n        <br/>\n\n      </p>\n      <p>In checking the box below I confirm that I have read, understood and agree to the terms of the Disclaimer / Liability\n        Waiver\n      </p>\n    \n      \n        <ul class = "list">\n            <li class = "item item-checkbox checkbox-positive" (click)="saveAggrement()">\n               I Agree\n               <label class = "checkbox">\n                  <input type = "checkbox" />\n               </label>\n            </li>\n         \n</ul>\n          \n    </ion-card-content>\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/terms.html"*/,
+            selector: 'page-terms',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/static/terms.html"*/'<!--\n  Generated template for the TermsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Disclaimer / Liability Waiver</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card>\n    <ion-card-content>\n\n      <p>\n        Aadit Life recommends that you consult with your physician before beginning any exercise program. While the program is conservative,\n        and workouts are based on a wellness evaluation that is conducted, there is still the possibility that an existing\n        condition could be aggravated during the wellness evaluation - or over the course of the program. You should understand\n        that when participating in any exercise, or exercise program, there is the possibility of physical injury. When signing\n        up for the program, and doing the activities that are part of the program, you agree that you do so at your own risk,\n        are voluntarily participating in these activities, assume all risk of injury to yourself, and agree to release and\n        discharge Aadit Life Wellness (OPC) Pvt. Ltd. from any and all claims or causes of action, known or unknown, that\n        may happen during the program.\n      </p>\n      <p>\n        <br/>\n\n      </p>\n      <p>In checking the box below I confirm that I have read, understood and agree to the terms of the Disclaimer / Liability\n        Waiver\n      </p>\n    \n      \n        <ul class = "list">\n            <li class = "item item-checkbox checkbox-positive" (click)="saveAggrement()">\n               I Agree\n               <label class = "checkbox">\n                  <input type = "checkbox" />\n               </label>\n            </li>\n         \n</ul>\n          \n    </ion-card-content>\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/static/terms.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"]])
     ], TermsPage);
     return TermsPage;
 }());
@@ -5371,7 +5375,7 @@ var TermsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 75:
+/***/ 77:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5379,9 +5383,9 @@ var TermsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__workout_details__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_workout_api__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_strength_workout_api__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__workout_details__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_workout_api__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_strength_workout_api__ = __webpack_require__(385);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5442,15 +5446,15 @@ var Workouts = /** @class */ (function () {
         this.content.resize();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Content"]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["Content"])
     ], Workouts.prototype, "content", void 0);
     Workouts = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'workouts',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/workouts/workouts.html"*/'<ion-header>\n\n  <ion-navbar color="primary" *ngIf="showNavbar">\n    <ion-title>Workouts</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let workout of workouts" (click)=getWorkoutDetails(workout)>\n\n        <ion-item-divider text-center color="secondary">{{workout.workout_type}}</ion-item-divider>\n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Activity Time:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.activity_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Activity Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.activity_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Recovery Time\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.recovery_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Recovery Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.recovery_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Repeats:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.repeats}}\n            </ion-col>\n            <ion-col text-wrap>\n              Total Duration:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.total_duration}} mins\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n    \n    </button>\n\n    <button ion-item *ngFor="let strength_workout of strength_workouts" (click)=getStrengthWorkoutDetails(workout)>\n\n      <ion-item-divider text-center color="secondary">Strength</ion-item-divider>\n      <ion-item>\n        <ion-row *ngIf="strength_workout.balance && strength_workout.balance > 0">\n          <ion-col text-wrap>\n            Balance:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.balance}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.plank && strength_workout.plank > 0">\n          <ion-col text-wrap>\n            Plank:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.plank}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.pushups && strength_workout.pushups > 0">\n          <ion-col text-wrap>\n            Push Ups:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.pushups}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.one_leg_raise && strength_workout.one_leg_raise > 0">\n          <ion-col text-wrap>\n            One Leg Raise:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.one_leg_raise}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.leg_raise_both && strength_workout.leg_raise_both > 0">\n          <ion-col text-wrap>\n            Leg Raise Both:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.leg_raise_both}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.squats && strength_workout.squats > 0">\n          <ion-col text-wrap>\n            Squats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.squats}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.crunches && strength_workout.crunches > 0">\n          <ion-col text-wrap>\n            Crunches:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.crunches}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.superman && strength_workout.superman > 0">\n          <ion-col text-wrap>\n            Superman:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.superman}} seconds\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n  \n  </ion-list>\n\n  \n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/workouts/workouts.html"*/,
+            selector: 'workouts',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/workouts/workouts.html"*/'<ion-header>\n\n  <ion-navbar color="primary" *ngIf="showNavbar">\n    <ion-title>Workouts</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let workout of workouts" (click)=getWorkoutDetails(workout)>\n\n        <ion-item-divider text-center color="secondary">{{workout.workout_type}}</ion-item-divider>\n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Activity Time:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.activity_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Activity Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.activity_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Recovery Time\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.recovery_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Recovery Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.recovery_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Repeats:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.repeats}}\n            </ion-col>\n            <ion-col text-wrap>\n              Total Duration:\n            </ion-col>\n            <ion-col text-wrap>\n              {{workout.total_duration}} mins\n            </ion-col>\n          </ion-row>\n        </ion-item>\n    \n    \n    </button>\n\n    <button ion-item *ngFor="let strength_workout of strength_workouts" (click)=getStrengthWorkoutDetails(workout)>\n\n      <ion-item-divider text-center color="secondary">Strength</ion-item-divider>\n      <ion-item>\n        <ion-row *ngIf="strength_workout.balance && strength_workout.balance > 0">\n          <ion-col text-wrap>\n            Balance:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.balance}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.plank && strength_workout.plank > 0">\n          <ion-col text-wrap>\n            Plank:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.plank}} seconds\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.pushups && strength_workout.pushups > 0">\n          <ion-col text-wrap>\n            Push Ups:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.pushups}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.one_leg_raise && strength_workout.one_leg_raise > 0">\n          <ion-col text-wrap>\n            One Leg Raise:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.one_leg_raise}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.leg_raise_both && strength_workout.leg_raise_both > 0">\n          <ion-col text-wrap>\n            Leg Raise Both:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.leg_raise_both}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.squats && strength_workout.squats > 0">\n          <ion-col text-wrap>\n            Squats:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.squats}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.crunches && strength_workout.crunches > 0">\n          <ion-col text-wrap>\n            Crunches:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.crunches}} count\n          </ion-col>\n        </ion-row>\n        <ion-row *ngIf="strength_workout.superman && strength_workout.superman > 0">\n          <ion-col text-wrap>\n            Superman:\n          </ion-col>\n          <ion-col text-wrap>\n            {{strength_workout.superman}} seconds\n          </ion-col>\n        </ion-row>\n      </ion-item>\n\n    </button>\n  \n  </ion-list>\n\n  \n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/workouts/workouts.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_workout_api__["a" /* WorkoutApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_strength_workout_api__["a" /* StrengthWorkoutApi */],
             __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
@@ -5462,7 +5466,7 @@ var Workouts = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 76:
+/***/ 78:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5542,7 +5546,7 @@ var FoodLogApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 77:
+/***/ 79:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5550,9 +5554,9 @@ var FoodLogApi = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__schedule_form__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedule_create___ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__schedule_form__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schedule_create___ = __webpack_require__(387);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5568,14 +5572,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var Schedules = /** @class */ (function () {
-    function Schedules(navCtrl, navParams, loadingController, scheduleApi, respUtility) {
+    function Schedules(navCtrl, navParams, loadingController, scheduleApi, respUtility, modalCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.loadingController = loadingController;
         this.scheduleApi = scheduleApi;
         this.respUtility = respUtility;
+        this.modalCtrl = modalCtrl;
         this.fitness_test_id = null;
+        this.date = '2018-01-01';
+        this.options = {
+            from: new Date(2000, 0, 1),
+        };
         if (this.navParams.data["fitness_test_id"] !== null) {
             this.fitness_test_id = this.navParams.data["fitness_test_id"];
         }
@@ -5590,6 +5600,8 @@ var Schedules = /** @class */ (function () {
         loader.present();
         this.scheduleApi.getSchedules(this.fitness_test_id).subscribe(function (schedules) {
             _this.schedules = schedules;
+            if (!!_this.schedule) {
+            }
             console.log("Loaded schedules");
             console.log(schedules);
         }, function (error) { _this.respUtility.showFailure(error); loader.dismiss(); }, function () { loader.dismiss(); });
@@ -5604,12 +5616,13 @@ var Schedules = /** @class */ (function () {
     };
     Schedules = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'schedules',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedules.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title *ngIf="fitness_test_id == null">Schedule For This Week</ion-title>\n    <ion-title *ngIf="fitness_test_id != null">Schedule For Test</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list inset>\n\n    <button ion-item *ngFor="let schedule of schedules" (click)=rateSchedule(schedule)>\n\n      <ion-item class="schedule_header" text-wrap text-center [style.backgroundColor]="(schedule.workout_type != \'Strength\') ? \'#32db64\' : \'#488aff\'">\n        <h2>{{schedule.scheduled_date | date}} : {{schedule.workout_type}}</h2>\n        <ion-icon name=\'checkbox\' item-right *ngIf="schedule.completed"></ion-icon>\n        <ion-icon name=\'warning\' item-right *ngIf="schedule.completed==false"></ion-icon>\n      </ion-item>\n      \n      <div *ngIf="schedule.workout_type != \'Strength\'">\n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Activity Time:\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.activity_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Activity Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.activity_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n\n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Recovery Time\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.recovery_time}} mins\n            </ion-col>\n            <ion-col text-wrap>\n              Recovery Speed:\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.recovery_speed}} Kmh\n            </ion-col>\n          </ion-row>\n        </ion-item>\n\n        <ion-item>\n          <ion-row>\n            <ion-col text-wrap>\n              Repeats:\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.repeats}}\n            </ion-col>\n            <ion-col text-wrap>\n              Total Duration:\n            </ion-col>\n            <ion-col text-wrap>\n              {{schedule.exercise.total_duration}} mins\n            </ion-col>\n          </ion-row>\n        </ion-item>\n      </div>\n\n    </button>\n\n    <div *ngIf="!schedules || schedules.length == 0">\n      <ion-card-title class="center">\n        Your workout schedule needs to be created.\n      </ion-card-title>\n      <p>\n        Please click the button below to create your workout schedule. Choose the days you want to schedule the appropriate workout\n        on.\n      </p>\n\n      <button ion-button full color="primary" (click)="createSchedule()">Create Schedule</button>\n    </div>\n\n\n  </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/schedules/schedules.html"*/,
+            selector: 'schedules',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/schedules/schedules.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title *ngIf="fitness_test_id == null">Schedule For This Week</ion-title>\n    <ion-title *ngIf="fitness_test_id != null">Schedule For Test</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-calendar class="calender-height" [(ngModel)]="date" (onChange)="onChange($event)" [options]="options" type="string" format="YYYY-MM-DD">\n  </ion-calendar>\n\n\n  {{schedule?.workout_type}}\n\n\n  <div *ngIf="schedule?.workout_type != \'Strength\'" class="content-height">\n    <ion-grid class="add-border height-70">\n      <ion-row>\n        <ion-col col-4>\n\n        </ion-col>\n\n        <ion-col col-4>\n          <ion-icon name="speedometer"></ion-icon> Speed (kmph)\n        </ion-col>\n\n        <ion-col col-4>\n          <ion-icon name="clock"></ion-icon> Time (mins)\n        </ion-col>\n      </ion-row>\n\n\n      <ion-row>\n        <ion-col col-4>\n          <ion-icon name="bicycle"></ion-icon> Activity\n        </ion-col>\n\n        <ion-col col-4>\n          {{schedule?.exercise?.activity_speed}}\n        </ion-col>\n\n        <ion-col col-4>\n          {{schedule?.exercise?.activity_time}}\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col col-4>\n          <ion-icon name="man"></ion-icon> Rest\n        </ion-col>\n\n        <ion-col col-4>\n          {{schedule?.exercise?.recovery_speed}}\n        </ion-col>\n\n        <ion-col col-4>\n          {{schedule?.exercise?.recovery_time}}\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n    <!--   <ion-grid>\n        <ion-row>\n            <ion-col col-4>\n              <ion-icon name="repeat"></ion-icon> Repeat\n            </ion-col>\n  \n            <ion-col col-3>\n                {{schedule?.exercise?.repeats}}\n            </ion-col>\n  \n            <ion-col col-4>\n              <ion-icon name="alarm"></ion-icon> Duration\n            </ion-col>\n            <ion-col col-2>\n                {{schedule?.exercise?.total_duration}}\n            </ion-col>\n        </ion-row>\n      </ion-grid> -->\n    <ion-grid class="height-30">\n      <ion-row>\n        <ion-col ion-col-9>\n          <ion-grid>\n            <ion-row>\n              <ion-col col-8>\n                  Repeat  \n              </ion-col>\n              <ion-col col-4>\n                  {{schedule?.exercise?.repeats}}  \n              </ion-col>\n            </ion-row>\n            <ion-row>\n                <ion-col col-8>\n                    Duration \n                </ion-col>\n                <ion-col col-4>\n                    {{schedule?.exercise?.total_duration}} \n                </ion-col>\n              </ion-row>\n          </ion-grid>\n        </ion-col>\n        <ion-col ion-col-3>\n          \n              <img src="assets/smiley.png" *ngIf="!schedule?.rating">\n              <img src="assets/neutral.png" *ngIf="schedule?.rating==0">\n              <img src="assets/sad.png" *ngIf="schedule?.rating==-1">\n              <img src="assets/home.jpg" *ngIf="!schedule?.rating==1">\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </div>\n\n  <div *ngIf="schedule?.workout_type == \'Strength\'">\n    <!-- Add card content here! -->\n  </div>\n  <!--\n  <ion-list inset>\n\n    <button ion-item *ngFor="let schedule of schedules" (click)=rateSchedule(schedule)>\n\n      <ion-item class="schedule_header" text-wrap text-center [style.backgroundColor]="(schedule.workout_type != \'Strength\') ? \'#32db64\' : \'#488aff\'">\n        <h2>{{schedule.scheduled_date | date}} : {{schedule.workout_type}}</h2>\n        <ion-icon name=\'checkbox\' item-right *ngIf="schedule.completed"></ion-icon>\n        <ion-icon name=\'warning\' item-right *ngIf="schedule.completed==false"></ion-icon>\n      </ion-item>\n \n      </div>\n\n    </button>\n\n    <div *ngIf="!schedules || schedules.length == 0">\n      <ion-card-title class="center">\n        Your workout schedule needs to be created.\n      </ion-card-title>\n      <p>\n        Please click the button below to create your workout schedule. Choose the days you want to schedule the appropriate workout\n        on.\n      </p>\n\n      <button ion-button full color="primary" (click)="createSchedule()">Create Schedule</button>\n    </div>\n\n\n  </ion-list>\n\n-->\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/schedules/schedules.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_4__providers_schedule_api__["a" /* ScheduleApi */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */]])
+            __WEBPACK_IMPORTED_MODULE_2__providers_response_utility__["a" /* ResponseUtility */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["ModalController"]])
     ], Schedules);
     return Schedules;
 }());
@@ -5618,16 +5631,16 @@ var Schedules = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 78:
+/***/ 80:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoalForm; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_keyboard__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angular2_token__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5662,10 +5675,10 @@ var GoalForm = /** @class */ (function () {
         this.goal = this.navParams.data;
         console.log(this.goal);
         this.slideOneForm = formBuilder.group({
-            reason: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            reason: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
             frequency: [],
-            current_activity: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
-            delight: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* Validators */].required])],
+            current_activity: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
+            delight: ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(10), __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required])],
         });
     }
     GoalForm.prototype.ionViewDidLoad = function () {
@@ -5712,14 +5725,14 @@ var GoalForm = /** @class */ (function () {
     };
     GoalForm = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
-            selector: 'goal-form',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goal-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("REASON")}}</ion-label>\n        <ion-textarea name="reason" formControlName="reason" type="text" [(ngModel)]="goal.reason" [class.invalid]="!slideOneForm.controls.reason.valid && (slideOneForm.controls.reason.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.reason.valid  && (slideOneForm.controls.reason.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("DELIGHT")}}</ion-label>\n        <ion-textarea name="delight" formControlName="delight" type="text" [(ngModel)]="goal.delight" [class.invalid]="!slideOneForm.controls.delight.valid && (slideOneForm.controls.delight.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.delight.valid  && (slideOneForm.controls.delight.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-list radio-group formControlName="frequency" [(ngModel)]="goal.frequency">\n\n        <ion-list-header text-wrap>{{getGoalText("FREQ")}}</ion-list-header>\n\n        <ion-item>\n          <ion-label text-wrap>Not regular - less than once a week.</ion-label>\n          <ion-radio value="Not regular - less than once a week."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Somewhat regular - between one and three times a week.</ion-label>\n          <ion-radio value="Somewhat regular - between one and three times a week."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Regular - three or more times a week.</ion-label>\n          <ion-radio value="Regular - three or more times a week."></ion-radio>\n        </ion-item>\n\n      </ion-list>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.frequency.valid  && (slideOneForm.controls.frequency.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("CURRENT_ACTIVITY")}}</ion-label>\n        <ion-textarea name="current_activity" formControlName="current_activity" type="text" [(ngModel)]="goal.current_activity"\n          [class.invalid]="!slideOneForm.controls.current_activity.valid && (slideOneForm.controls.current_activity.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.current_activity.valid  && (slideOneForm.controls.current_activity.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/goals/goal-form.html"*/,
+            selector: 'goal-form',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/goals/goal-form.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Goals</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>\n\n  <ion-list no-lines>\n\n    <form [formGroup]="slideOneForm">\n\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("REASON")}}</ion-label>\n        <ion-textarea name="reason" formControlName="reason" type="text" [(ngModel)]="goal.reason" [class.invalid]="!slideOneForm.controls.reason.valid && (slideOneForm.controls.reason.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.reason.valid  && (slideOneForm.controls.reason.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("DELIGHT")}}</ion-label>\n        <ion-textarea name="delight" formControlName="delight" type="text" [(ngModel)]="goal.delight" [class.invalid]="!slideOneForm.controls.delight.valid && (slideOneForm.controls.delight.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.delight.valid  && (slideOneForm.controls.delight.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n      <ion-list radio-group formControlName="frequency" [(ngModel)]="goal.frequency">\n\n        <ion-list-header text-wrap>{{getGoalText("FREQ")}}</ion-list-header>\n\n        <ion-item>\n          <ion-label text-wrap>Not regular - less than once a week.</ion-label>\n          <ion-radio value="Not regular - less than once a week."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Somewhat regular - between one and three times a week.</ion-label>\n          <ion-radio value="Somewhat regular - between one and three times a week."></ion-radio>\n        </ion-item>\n\n        <ion-item>\n          <ion-label text-wrap>Regular - three or more times a week.</ion-label>\n          <ion-radio value="Regular - three or more times a week."></ion-radio>\n        </ion-item>\n\n      </ion-list>\n\n\n      <ion-item *ngIf="!slideOneForm.controls.frequency.valid  && (slideOneForm.controls.frequency.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n\n\n      <ion-item>\n        <ion-label text-wrap floating>{{getGoalText("CURRENT_ACTIVITY")}}</ion-label>\n        <ion-textarea name="current_activity" formControlName="current_activity" type="text" [(ngModel)]="goal.current_activity"\n          [class.invalid]="!slideOneForm.controls.current_activity.valid && (slideOneForm.controls.current_activity.dirty || submitAttempt)"></ion-textarea>\n      </ion-item>\n\n      <ion-item *ngIf="!slideOneForm.controls.current_activity.valid  && (slideOneForm.controls.current_activity.dirty || submitAttempt)">\n        <p class="error-text">Please enter some details.</p>\n      </ion-item>\n    </form>\n\n  </ion-list>\n\n  <button ion-button full color="primary" (click)="save()" [disabled]="slideOneForm.invalid">Save</button>\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/goals/goal-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"],
             __WEBPACK_IMPORTED_MODULE_4__providers_goal_api__["a" /* GoalApi */],
             __WEBPACK_IMPORTED_MODULE_5__providers_response_utility__["a" /* ResponseUtility */],
-            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["LoadingController"],
             __WEBPACK_IMPORTED_MODULE_6_angular2_token__["a" /* Angular2TokenService */],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["ElementRef"],
             __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"],
@@ -5732,7 +5745,7 @@ var GoalForm = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 79:
+/***/ 81:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5820,7 +5833,7 @@ var GoalApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 80:
+/***/ 82:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5903,22 +5916,22 @@ var MedicalApi = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 81:
+/***/ 83:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Login; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_token__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_config__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_login_provider__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_login_provider__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_user_api__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__password_reset__ = __webpack_require__(381);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__users_register__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__password_reset__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__users_register__ = __webpack_require__(150);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5952,8 +5965,8 @@ var Login = /** @class */ (function () {
         this.userApi = userApi;
         this.storage = storage;
         this.slideOneForm = formBuilder.group({
-            password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].minLength(6), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])],
-            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$'), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required])]
+            password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].minLength(6), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])],
+            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$'), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["Validators"].required])]
         });
     }
     Login.prototype.ionViewDidLoad = function () {
@@ -6009,19 +6022,27 @@ var Login = /** @class */ (function () {
     };
     Login = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-login',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/login/login.html"*/'<!--\n  Generated template for the Login page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content padding>\n  <div class="logo-center">\n    <img src="assets/home.svg" />\n  </div>\n  <h1 class="text-color extra-spacing company-name" text-center>\n    Aadit Life\n  </h1>\n  <p class="text-color spacing-1" text-center>\n    The most popular way to train for a run\n  </p>\n  <div class="seperator">\n    <form class="padding-20" [formGroup]="slideOneForm">\n      <ion-item class="transparent">\n        <ion-label class="input-color" floating>Email</ion-label>\n        <ion-input class="input-color" formControlName="email" name="email" type="email" [(ngModel)]="email" [class.invalid]="!slideOneForm.controls.email.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item class="transparent">\n        <ion-label class="input-color" floating>Password</ion-label>\n        <ion-input class="input-color" formControlName="password" name="password" type="password" [(ngModel)]="password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n    </form>\n    <ion-row>\n      <ion-col col-6>\n        <button ion-button clear color="light" icon-left (click)="forgotPassword()">\n          <ion-icon name=\'key\'></ion-icon>\n          <span class="font-10">Forgot Password?</span>\n        </button>\n      </ion-col>\n      <ion-col col-6>\n        <button ion-button round full color="primary" (click)="login()">Login</button>\n      </ion-col>\n    </ion-row>\n    </div>\n\n    <button ion-button clear color="primary" full>\n        <ion-icon  name="person-add" class="margin-right-5"></ion-icon> New User? Sign up\n    </button>\n    <ion-row class="position-bottom">\n      <ion-col col-4>\n        <button ion-button block color="primary" outline>\n          <ion-icon name="logo-facebook" class="margin-right-5"></ion-icon> facebook\n        </button>\n      </ion-col>\n      <ion-col col-4>\n        <button ion-button block color="secondary" outline>\n          <ion-icon name="logo-google" class="margin-right-5"></ion-icon> google\n        </button>\n      </ion-col>\n      <ion-col col-4>\n        <button ion-button block color="dark" outline (click)="register()">\n          <ion-icon name="mail" class="margin-right-5"></ion-icon> email\n        </button>\n\n      </ion-col>\n    </ion-row>\n\n\n\n\n\n  <!--\n    \n  <ion-card>\n\n    <ion-card-content>\n      \n\n  \n\n    </ion-card-content>\n\n    <ion-row no-padding>\n      \n    </ion-row>\n    \n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear small color="primary" icon-left (click)="resendConfirmationEmail()">\n          <ion-icon name=\'mail\'></ion-icon>\n          Resend Confirmation Email\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card> -->\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/login/login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/login/login.html"*/'<!--\n  Generated template for the Login page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-content padding>\n  <div class="logo-center">\n    <img src="assets/home.svg" />\n  </div>\n  <h1 class="text-color extra-spacing company-name" text-center>\n    Aadit Life\n  </h1>\n  <p class="text-color spacing-1" text-center>\n    The most popular way to train for a run\n  </p>\n  <div class="seperator">\n    <form class="padding-20" [formGroup]="slideOneForm">\n      <ion-item class="transparent">\n        <ion-label class="input-color" floating>Email</ion-label>\n        <ion-input class="input-color" formControlName="email" name="email" type="email" [(ngModel)]="email" [class.invalid]="!slideOneForm.controls.email.valid && (slideOneForm.controls.email.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n\n      <ion-item class="transparent">\n        <ion-label class="input-color" floating>Password</ion-label>\n        <ion-input class="input-color" formControlName="password" name="password" type="password" [(ngModel)]="password" [class.invalid]="!slideOneForm.controls.password.valid && (slideOneForm.controls.password.dirty || submitAttempt)"></ion-input>\n      </ion-item>\n    </form>\n    <ion-row>\n      <ion-col col-6>\n        <button ion-button clear color="light" icon-left (click)="forgotPassword()">\n          <ion-icon name=\'key\'></ion-icon>\n          <span class="font-10">Forgot Password?</span>\n        </button>\n      </ion-col>\n      <ion-col col-6>\n        <button ion-button round full color="primary" (click)="login()">Login</button>\n      </ion-col>\n    </ion-row>\n    </div>\n\n    <button ion-button clear color="primary" full>\n        <ion-icon  name="person-add" class="margin-right-5"></ion-icon> New User? Sign up\n    </button>\n    <ion-row class="position-bottom">\n      <ion-col col-4>\n        <button ion-button block color="primary" outline>\n          <ion-icon name="logo-facebook" class="margin-right-5"></ion-icon> facebook\n        </button>\n      </ion-col>\n      <ion-col col-4>\n        <button ion-button block color="secondary" outline>\n          <ion-icon name="logo-google" class="margin-right-5"></ion-icon> google\n        </button>\n      </ion-col>\n      <ion-col col-4>\n        <button ion-button block color="dark" outline (click)="register()">\n          <ion-icon name="mail" class="margin-right-5"></ion-icon> email\n        </button>\n\n      </ion-col>\n    </ion-row>\n\n\n\n\n\n  <!--\n    \n  <ion-card>\n\n    <ion-card-content>\n      \n\n  \n\n    </ion-card-content>\n\n    <ion-row no-padding>\n      \n    </ion-row>\n    \n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear small color="primary" icon-left (click)="resendConfirmationEmail()">\n          <ion-icon name=\'mail\'></ion-icon>\n          Resend Confirmation Email\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card> -->\n\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/login/login.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_3_angular2_token__["a" /* Angular2TokenService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angular2_token__["a" /* Angular2TokenService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* Config */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* Config */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_6__providers_login_provider__["a" /* LoginProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_login_provider__["a" /* LoginProvider */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_7__providers_user_api__["a" /* UserApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__providers_user_api__["a" /* UserApi */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["b" /* Storage */]) === "function" && _k || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormBuilder"],
+            __WEBPACK_IMPORTED_MODULE_4__providers_response_utility__["a" /* ResponseUtility */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["LoadingController"],
+            __WEBPACK_IMPORTED_MODULE_3_angular2_token__["a" /* Angular2TokenService */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_config__["a" /* Config */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_login_provider__["a" /* LoginProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_user_api__["a" /* UserApi */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["b" /* Storage */]])
     ], Login);
     return Login;
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 }());
 
 //# sourceMappingURL=login.js.map
 
 /***/ }),
 
-/***/ 82:
+/***/ 84:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6049,9 +6070,9 @@ var ContactPage = /** @class */ (function () {
     };
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-contact',template:/*ion-inline-start:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Contact</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      <p>Email: anand.valavi@aaditlife.com</p>\n      <p>Website: http://www.aaditlife.com</p>\n      <p tel="+917338086009">Phone: +91 73380 86009</p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Documents/GitHub/AaditLifeUI/src/pages/static/contact.html"*/,
+            selector: 'page-contact',template:/*ion-inline-start:"/Users/akash/Downloads/ui/src/pages/static/contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Contact</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <ion-card-content>\n      <p>Email: anand.valavi@aaditlife.com</p>\n      <p>Website: http://www.aaditlife.com</p>\n      <p tel="+917338086009">Phone: +91 73380 86009</p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"/Users/akash/Downloads/ui/src/pages/static/contact.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavController"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["NavParams"]])
     ], ContactPage);
     return ContactPage;
 }());
@@ -6060,5 +6081,5 @@ var ContactPage = /** @class */ (function () {
 
 /***/ })
 
-},[411]);
+},[419]);
 //# sourceMappingURL=main.js.map
